@@ -1,0 +1,45 @@
+<div class="artic-page"  auto-height>
+	<div class="inner">
+		<banner title="{{itemInfo[0].title}}" discribe="{{itemInfo[0].describe}}" bg="{{itemInfo[0].src}}" my-msg='{{systemNotice.title}}' my-msg-url='{{systemNotice.url}}'></banner>
+		<!-- <div class="search">
+			<input type="text" ng-model="nn" placeholder="搜索内容"> {{nn}}
+		</div> -->
+		<div class="content" ng-controller="articLists">
+			<div class="menu-bar"><span ng-click="order = '-id'; reverse=!reverse" ng-class="{active:reverse}">时间排序</span></div>
+			<div class="artic">
+				<ul>
+					<li ng-repeat="new in items | orderBy:order:reverse | filter:nn " ng-class="{active:new.src.length>0}">
+						<div class="img" ng-if="new.src.length>0" ng-style="{'background-image':'url({{new.src}})'}">
+						</div>
+						<div class="box">
+							<div class="title"><a href="javascript:;;" ng-click="toDetail(new.id)" >{{new.title}}</a></div>
+							<div class="times">{{new.time}}</div>
+							<div class="describe">
+								{{new.describe}}
+							</div>
+							<div class="detail"><a href="javascript:;;" ng-click="toDetail(new.id)">详情</a></div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<nav>
+				<ul class="pagination">
+				<li>
+				<a ng-click="Previous()">
+				<span>上一页</span>
+				</a>
+				</li>
+				<li ng-repeat="page in pageList" ng-class="{active: isActivePage(page)}" >
+				<a ng-click="selectPage(page)" >{{ page }}</a>
+				</li>
+				<li>
+				<a ng-click="Next()">
+				<span>下一页</span>
+				</a>
+				</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<gotop scrolltop="100" scrollbox='.artic-page'></gotop>

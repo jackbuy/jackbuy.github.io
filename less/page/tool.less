@@ -1,0 +1,67 @@
+// 工具
+.check{
+	background: #fff;
+	width: 460px;
+	height: 200px;
+	margin:0px auto;
+	padding-top: 45px;
+	border-radius: 15px;
+	h3{
+		font-size: 20px;
+		padding-bottom: 30px;
+		line-height: 1;
+		text-align: center;
+		color: #212121;
+	}
+	.inner{
+		width: 360px;
+		height: 40px;
+		margin:0px auto;
+		line-height: 0;
+		font-size: 0;
+		input[type="text"],button{vertical-align: middle;font-size: 14px;}
+		input[type="text"]{width: 280px;height: 40px;line-height: 40px;background: #fff;text-indent: 15px;border:1px solid #eee;}
+		input[type="text"]:focus{border:1px solid #2692c8;}
+		input[type="text"]:invalid{border:1px solid #2692c8;box-shadow: none;}
+		// input[type="text"]:valid{border:1px solid #f00;}
+		// input[type="text"]:required{border:1px solid #067;}
+		input[type="submit"]{width: 80px;height: 40px;background: #2692c8 ;color: #fff;cursor:pointer;border:1px solid #2692c8;}
+		// 禁止按钮点击的样式
+		input:disabled{cursor: not-allowed;}
+		//IE8-
+		input[disabled]{cursor: not-allowed;}
+		//IE6 Using Javascript to add CSS class "disabled"
+		* html input.disabled{cursor: not-allowed;}
+
+		.help-block{font-size: 12px;color: #c00;line-height: 2;}
+	} 
+}
+
+.tool-in{ 
+	width: 1040px;
+	margin:0 auto;
+	border-radius: 15px 15px 0 0;
+	background: #fff;
+	overflow: hidden;
+	.side{
+		background: #fff;
+		height: 491px;
+		box-shadow: 3px 0 12px rgba(0,0,0,.2);
+	}
+	.content{} 
+
+	.img {width: 90px; height: 90px; border-radius: 50px; overflow: hidden; margin: 50px auto; background: #fff; box-shadow: 0 7px 18px #bbb }
+	.img img {width: 100% }
+	.title {text-align: center; font-size: 13px }
+	.describe {padding: 30px; font-size: 12px; color: #333; text-align: center } 
+	.content .t {height: 40px; line-height: 40px; background: #333; background: rgba(255,255,255,.3); color: #212121; padding-left: 40px; font-size: 12px; background: url(../images/folder.png) no-repeat 12px center; position: relative }
+	.content .t .close {position: absolute; top: 0; right: 0; width: 40px; height: 40px; background: url(../images/close.png) no-repeat center; cursor: pointer }
+	.content .t .close:hover {background-image: url(../images/close_hover.png)}
+	.content .t em {padding: 0 3px;font-style: normal;}
+	.content .c {overflow-x: hidden; overflow-y: auto;height: 451px;}
+	.content li {line-height: 40px; background: rgba(0,0,0,0); position: relative;border-top: 1px solid #ddd;} 
+	.content li a {color: #000; display: block; padding-left: 40px; font-size: 12px; background: url(../images/view.png) no-repeat 12px center; -webkit-transition: all .3s; -o-transition: all .3s; transition: all .3s } 
+    .content li a:hover {color: #000;background: rgba(0,0,0,.1) url(../images/view_active.png) no-repeat 12px center } 
+    .content li.active a {color: #2692c8;background: url(../images/view_active.png) no-repeat 12px center }
+ 
+} 

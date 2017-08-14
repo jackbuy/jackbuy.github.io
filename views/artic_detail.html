@@ -1,0 +1,14 @@
+<div class="detail" auto-height>  
+	<div class="inner actic-detail">
+		<div class="goback" ng-click="goback()" title="返回"></div> 
+		<h1>{{artic.title}}</h1> 
+		<div class="label">
+			<span>发布时间: {{artic.time}}</span>
+			<span>发布者: {{artic.author}}</span> 
+		</div>
+		<div class="describe"><span>导读：</span>{{artic.describe}}</div>
+		<div class="content" ng-bind-html="artic.content|trustHtml">
+		</div> 
+	</div> 
+</div>
+<gotop scrolltop="100" scrollbox='.detail'></gotop>

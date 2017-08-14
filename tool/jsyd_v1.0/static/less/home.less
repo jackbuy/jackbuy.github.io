@@ -1,0 +1,181 @@
+// 首页
+.home{
+	width: 100%;
+	height: 1035px;
+	position: relative;
+	padding-top: 560px;
+	// 背景banner
+	&-banner{
+		width: 100%;
+		height: 930px;
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: -1;
+		.li{
+			height: inherit;
+			width: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+			display: none;
+			.background-size(cover);
+		}
+	}
+	&-content{
+		width: @container-width;
+		margin: 0 auto;
+		// banner
+		&-banner{
+			width: 840px;
+			height: 246px;
+			overflow:hidden;
+			background: rgba(10,10,30,.8);
+			position: relative;
+			.title-en,
+			.title-zh{
+				color: #fff;
+				line-height: 1.2;
+				.ovf-1();
+			}
+			.title-en{
+				font-size: 40px;
+				font-weight: bold;
+			}
+			.title-zh{
+				font-size: 28px;
+			}
+			.describe{
+				color: #bbb;
+				color: rgba(255,255,255,.5);
+				line-height: 1.6;
+				padding-top: 15px;
+				.ovf-num(2);
+			}
+			// 框架
+			.md{
+				width: 999999px;
+				li{
+					float: left;
+					a{
+						display: block;
+						padding: 38px 42px;
+					}
+				}
+			}
+			// 指示按钮
+			.hd{
+				position: absolute;
+				bottom: 30px;
+				left: 0;
+				text-align: left;
+				z-index: 90;
+				width: 100%;
+				padding-left: 42px;
+				li{
+					color: #fff;
+					display: inline-block;
+					width: 10px;
+					height: 10px;
+					border-radius: 50%;
+					background: #fff;
+					line-height: 999px;
+					overflow: hidden;
+					vertical-align: middle;
+					margin-right: 8px;
+					cursor: pointer;
+					&.active{
+						width: 10px;
+						height: 10px;
+						background: #31b1fd;
+					}
+				}
+			}
+		}
+		&-news{
+			height: 190px;
+			.arrow-right{
+				display: block;
+				margin-top: 8px;
+				width: 6px;
+				height: 10px;
+				background: url(../images/arrow_right.png) no-repeat 0 0;
+			}
+			// 公司动态
+			&-dt,
+			&-intro,
+			&-area{
+				float: left;
+				height: inherit;
+				padding: 35px ;
+				.title{
+					font-size: 20px;
+					color: #000;
+					font-weight: bold;
+					span{
+						font-size: 12px;
+						color: 999;
+						font-weight: normal;
+					}
+				}
+				.con{
+					padding-top: 20px;
+				}
+			}
+			&-intro,
+			&-area{
+				padding-left: 25px;
+				padding-right: 25px;
+				.title{
+					color: #fff;
+					span{
+						color: #fff;
+					}
+				}
+				.con{
+					line-height: 1.7;
+					color: #fff;
+					.ovf-num(3);
+				}
+			}
+			&-dt{
+				width: 581px;
+				border:1px solid #ddd;
+				border-top: 0 none;
+				border-right: 0 none;
+				background: #fff url(../images/home_dt_bg.png) no-repeat bottom right;
+				.con{
+					li{
+						line-height: 2;
+						.ovf-1();
+						a{
+							color: #333;
+							span{
+								color: #31b1fd;
+								i{
+									font-style: normal;
+									padding-left: 12px;
+									padding: 0 30px 0 10px;
+								}
+							}
+							&:hover{
+								color: @color-main;
+							}
+						}
+					}
+				}
+			}
+			// 公司介绍
+			&-intro{
+				width: 258px;
+				background: #23a3ef url(../images/home_intro_bg.png) no-repeat right bottom;
+
+			}
+			// 公司领域
+			&-area{
+				width: 440px;
+				background: #0b367a url(../images/home_area_bg.png) no-repeat right bottom;
+			}
+		}
+	}
+}

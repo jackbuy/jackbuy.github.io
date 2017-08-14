@@ -1,0 +1,10 @@
+{
+	"list":[
+		{"icon":"icon-artic","name":"日志","url":"artic"},
+		{"icon":"icon-photo","name":"相册","url":"photo"},
+		{"icon":"icon-code","name":"代码","url":"code"},
+		{"icon":"icon-tool","name":"工具","url":"tool"},  
+		{"icon":"icon-link","name":"链接","url":"link"},  
+		{"icon":"icon-about","name":"关于","url":"about"}
+	]
+}

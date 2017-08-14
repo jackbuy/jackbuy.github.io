@@ -1,0 +1,158 @@
+// 公司新闻
+.news{
+	.content{
+		&-header{
+			color: #222;
+			text-align: center;
+			line-height: 2;
+			padding: 26px 0;
+			&-title{
+				font-size: 24px;
+			}
+			&-time{
+				color: #777;
+			}
+		}
+		// 新闻列表
+		&-items{
+			&-list{
+				border-top: 1px solid #ddd;
+				padding: 50px 0;
+				position: relative;
+				&:first-child{
+					border-top: 0 none;
+				}
+				&-img{
+					position: absolute;
+					left: 0;
+					top: 50px;
+				}
+				&-title{
+					a{
+						font-size: 20px;
+						font-weight: bold;
+						color: #333;
+						.ovf-num();
+						&:hover{
+							color: #0860c4;
+						}
+					}
+				}
+				&-time{
+					font-size: 16px;
+					color: #888;
+					margin-top: 20px;
+				}
+				&-describe{
+					font-size: 14px;
+					color: #666;
+					line-height: 1.6;
+					margin-top: 20px;
+					.ovf-num();
+				}
+				&-btn{
+					padding-top: 20px;
+					a{
+						display: block;
+						width: 135px;
+						height: 35px;
+						line-height: 31px;
+						text-align: center;
+						background: #fff;
+						border:2px solid #ccc;
+						color: #999;
+						.trs();
+						&:hover{
+							color: #fff;
+							background: #0860c4;
+							border:2px solid #0860c4;
+						}
+					}
+				}
+				&.img-box{
+					padding-left: 400px;
+					.content-items-list-title{
+						a{
+							color: #0860c4;
+						}
+					}
+					.content-items-list-describe{
+						color: #222;
+					}
+					.content-items-list-btn{
+						a{
+							color: #fff;
+							background: #0860c4;
+							border:2px solid #0860c4;
+							.trs();
+							&:hover{
+								background: #fff;
+								border:2px solid @color-main;
+								color: @color-main;
+							}
+						}
+					}
+				}
+			}
+		}
+		// 媒体报道
+		&-pics{
+			margin-left: -40px;
+			padding-bottom: 40px;
+			&-list{
+				width: 435px;
+				float: left;
+				margin-left: 40px;
+				margin-top: 40px;
+				&-img{
+					position: relative;
+					width: 435px;
+					height: 248px;
+					img{
+						max-width: 100%;
+					}
+					&-time{
+						position: absolute;
+						left: 0;
+						bottom: 0;
+						width: 75px;
+						height: 75px;
+						text-align: center;
+						color: #fff;
+						background: #0860c4;
+						span{
+							font-size: 14px;
+							display: block;
+							height: 24px;
+							&.day{
+								font-size: 36px;
+								height: 51px;
+								line-height: 51px;
+							}
+						}
+					}
+				}
+				&-title{
+					color: #333;
+					height: 70px;
+					line-height: 70px;
+					font-size: 18px;
+					font-weight: bold;
+					.ovf-1();
+					.trs();
+				}
+				&-describe{
+					color: #666;
+					height: 42px;
+					line-height: 1.5;
+					.ovf-num();
+				}
+				&:hover{
+					.content-pics-list-title{
+						color: @color-main;
+					}
+				}
+			}
+		}
+	}
+}

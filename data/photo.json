@@ -1,0 +1,19 @@
+{
+	"photo":[
+		{"typeName":"相册测试",
+		"src":"https://raw.githubusercontent.com/jackbuy/photos/master/1.jpg",
+		"descr" : "风景描述",
+		"tag" : "旅游",
+		"list":[
+				{
+					"title" : "风景1",  
+					"src"   : "https://raw.githubusercontent.com/jackbuy/photos/master/1.jpg"
+				},
+				{
+					"title" : "风景2",  
+					"src"   : "https://raw.githubusercontent.com/jackbuy/photos/master/2.jpg"
+				}
+			]
+		} 
+	]
+}

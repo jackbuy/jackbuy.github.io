@@ -1,0 +1,24 @@
+<div class="artic-page"   auto-height>
+	<div class="inner"> 
+		<banner title="{{itemInfo[1].title}}" discribe="{{itemInfo[1].describe}}" bg="{{itemInfo[1].src}}" my-msg='{{systemNotice.title}}'  my-msg-url='{{systemNotice.url}}'></banner>
+		<div class="content">
+			<div class="photo" ng-controller="photoLists">
+				<div class="item row" > 
+					<ul>
+						<li ng-repeat="photo in photos">
+							<div class="photo-item" ng-click="showPhoto($index)" show-photo>  
+								<div class="img">
+									<img ng-src="{{photo.src}}" alt="">
+									<div class="tag">{{photo.tag}}</div>
+									<div class="count">{{photo.list.length}}<span>张</span></div>
+								</div>
+								<div class="title">{{photo.typeName}}</div> 
+							</div>
+						</li> 
+					</ul>
+				</div> 
+			</div>
+		</div>
+	</div> 
+</div>
+<gotop scrolltop="100" scrollbox='.artic-page'></gotop>
