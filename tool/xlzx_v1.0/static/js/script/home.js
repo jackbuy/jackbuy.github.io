@@ -1,0 +1,3 @@
+/*!all-2017-08-19 */
+
+$(function(){function a(){c=setInterval(function(){d===f-1?d=0:d++,b(d)},5e3)}function b(a){e.eq(a).fadeTo(800,1).siblings().fadeTo(1200,0),$(".banner-handle .inner a").eq(a).addClass("active").siblings().removeClass("active")}var c,d=0,e=$(".banner .list"),f=e.length,g="";!function(){for(i=1;i<=f;i++)1===i?g+='<a href="javascript:;;" class="active"></a>':g+='<a href="javascript:;;"></a>';$(".banner-handle .inner").html(g)}(),$(".banner-handle .inner").on("click","a",function(){clearInterval(c),d=$(this).index(),b(d),a()}),e.eq(0).fadeTo(1200,1),a()});

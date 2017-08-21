@@ -1,0 +1,94 @@
+{
+	"tool":{
+        "itemName":"嘉盛远大",
+        "src":"tool/jsyd_v1.0/logo.jpg",
+        "describe":"暂无介绍",
+        "urlPath":"tool/jsyd_v1.0/static/",
+        "list":[
+            {
+                "title" : "首页",
+                "url"   : "index.html"
+            },
+            {
+                "title" : "关于我们-董事长致辞",
+                "url"   : "about1.html"
+            },
+            {
+                "title" : "关于我们-公司介绍",
+                "url"   : "about2.html"
+            },
+            {
+                "title" : "关于我们-企业架构",
+                "url"   : "about3.html"
+            },
+            {
+                "title" : "关于我们-我们的优势",
+                "url"   : "about4.html"
+            },
+            {
+                "title" : "公司新闻-媒体报道",
+                "url"   : "news1.html"
+            },
+            {
+                "title" : "公司新闻-新闻列表",
+                "url"   : "news2.html"
+            },
+            {
+                "title" : "公司新闻-新闻详情",
+                "url"   : "news3.html"
+            },
+            {
+                "title" : "加入我们-人才理念",
+                "url"   : "joinus1.html"
+            },
+            {
+                "title" : "加入我们-员工风采",
+                "url"   : "joinus2.html"
+            },
+            {
+                "title" : "加入我们-招聘信息",
+                "url"   : "joinus3.html"
+            },
+            {
+                "title" : "加入我们-职业发展",
+                "url"   : "joinus4.html"
+            },
+            {
+                "title" : "装配式建筑-案例展示列表",
+                "url"   : "build1.html"
+            },
+            {
+                "title" : "装配式建筑-案例展示详情",
+                "url"   : "build2.html"
+            },
+            {
+                "title" : "装配式建筑-产业政策",
+                "url"   : "build3.html"
+            },
+            {
+                "title" : "装配式建筑-发展脉络",
+                "url"   : "build4.html"
+            },
+            {
+                "title" : "装配式建筑-技术标准",
+                "url"   : "build5.html"
+            },
+            {
+                "title" : "装配式建筑-实施流程",
+                "url"   : "build6.html"
+            },
+            {
+                "title" : "装配式建筑-显著优势",
+                "url"   : "build7.html"
+            },
+            {
+                "title" : "联系我们",
+                "url"   : "contactus.html"
+            },
+            {
+                "title" : "业务领域",
+                "url"   : "area.html"
+            }
+        ]
+    }
+}
