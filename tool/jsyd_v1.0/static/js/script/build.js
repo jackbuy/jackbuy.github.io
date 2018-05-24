@@ -1,3 +1,0 @@
-/*!all-2017-08-14 */
-
-$(function(){$(".side-video .img").on("click",function(){var a=$(".mask"),b=a.find(".con"),c=a.find("video"),d=$(this).find("img").data("url");c.attr("src",d),a.show(),$("html").on("touchmove",function(a){a.preventDefault()}),setTimeout(function(){a.addClass("active")},50),a.on("click",function(){a.removeClass("active").hide(),$("html").off("touchmove")}),b.on("click",function(a){a.stopPropagation()})})});
