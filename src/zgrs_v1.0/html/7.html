@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" type="text/css" href="css/style.min.css?version=1.0">
+    <title>详情页</title>
+</head>
+<body>
+    <div class="mb-nav-bg amt"></div>
+    <div class="mb-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="container-full header row line-bottom">
+        <div class="header-logo fl">
+            <img src="images/logo.jpg" alt="">
+        </div>
+        <div class="fr">
+            <div class="header-nav row">
+                <ul>
+                    <li><a href="#" class="active">首页</a></li>
+                    <li><a href="#">作品征集</a></li>
+                    <li><a href="#">作品评选</a></li>
+                    <li><a href="#">作品展览</a></li>
+                    <li><a href="#">活动纪实</a></li>
+                </ul>
+            </div>
+            <div class="header-menu">
+                <div class="header-menu-login">
+                    <a href="#" class="header-menu-login-sign"></a>
+                    <a href="#" class="header-menu-login-register">注册</a>
+                </div>
+                <div class="header-menu-search">
+                    <a href="#"></a>
+                </div>
+                <div class="header-menu-inter">
+                    <a href="#"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container detail">
+        <div class="detail-content row">
+            <div class="detail-content-con">
+                <!-- 移动端显示的切换按钮 start -->
+                <div class="mb-prev"></div>
+                <div class="mb-next"></div>
+                <!-- 移动端显示的切换按钮 end -->
+                <div class="pic-big">
+                    大图加载中...
+                </div>
+                <div class="pic-describe row">
+                    <div class="pic-describe-title">作品名称：</div>
+                    <div class="pic-describe-content tit">暂无</div>
+                </div>
+                <div class="pic-describe row">
+                    <div class="pic-describe-title">作品简介：</div>
+                    <div class="pic-describe-content des">暂无</div>
+                </div>
+            </div>
+            <div class="detail-content-side">
+                <div class="item row">
+                    <div class="item-tit">作者姓名：</div>
+                    <div class="item-con">侯慧鹏</div>
+                </div>
+                <div class="item row">
+                    <div class="item-tit">单位：</div>
+                    <div class="item-con">山东青岛分部</div>
+                </div>
+                <div class="item row">
+                    <div class="item-tit">类型：</div>
+                    <div class="item-con">艺术类</div>
+                </div>
+                <div class="pic-lists">
+                    <div class="pic-lists-btn prev"></div>
+                    <div class="pic-lists-con">
+                        <ul>
+                            <li
+                                style="background-image: url(images/list_pic05.jpg)"
+                                data-big="images/pic_big.jpg"
+                                data-title="名称1"
+                                data-describe="简介1"
+                            >
+                            </li>
+                            <li
+                                style="background-image: url(images/list_pic02.jpg)"
+                                data-big="images/list_pic02.jpg"
+                                data-title="名称2"
+                                data-describe="简介2"
+                            >
+                            </li>
+                            <li
+                                style="background-image: url(images/list_pic03.jpg)"
+                                data-big="images/list_pic03.jpg"
+                                data-title="名称3"
+                                data-describe="简介3"
+                            >
+                            </li>
+                            <li
+                                style="background-image: url(images/list_pic04.jpg)"
+                                data-big="images/list_pic04.jpg"
+                                data-title="名称4"
+                                data-describe="简介4"
+                            >
+                            </li>
+                            <li
+                                style="background-image: url(images/list_pic01.jpg)"
+                                data-big="images/list_pic01.jpg"
+                                data-title="名称5"
+                                data-describe="简介5"
+                            >
+                            </li>
+                            <li
+                                style="background-image: url(images/list_pic06.jpg)"
+                                data-big="images/list_pic06.jpg"
+                                data-title="名称6"
+                                data-describe="简介6"
+                            >
+                            </li>
+                            <li
+                                style="background-image: url(images/list_pic07.jpg)"
+                                data-big="images/list_pic07.jpg"
+                                data-title="名称7"
+                                data-describe="简介7"
+                            >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pic-lists-btn next"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div>版权所有 © 2014 中国人寿保险（集团）公司</div>
+        <div>Copyright © 2014 China Life Insurance(Group) Company. All rights reserved.</div>
+        <div>京ICP备05024145号 京公网安备110401500015号</div>
+    </div>
+    <div class="gotop"></div>
+    <script type="text/javascript" data-main="js/config" src="js/lib/require.min.js"></script>
+    <script type="text/javascript">
+        require(["config"],function(){
+            require(["common", "alertJs", "detail"], function() {
+                // use javascript or jquery do something ......
+                
+            });
+        });
+    </script>
+</body>
+</html>

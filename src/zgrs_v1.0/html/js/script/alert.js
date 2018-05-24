@@ -1,0 +1,3 @@
+/*!all-2018-05-24 */
+
+!function(a,b,c){function d(a){var c={title:"提示文字"};b.extend(!0,c,a||{}),this.title=c.title,this.$box=null,this.init()}d.prototype={init:function(){this.alertHtml(),this.hide()},alertHtml:function(){var a=this,c='<div class="alert">'+a.title+"</div>";this.$box=b(c).appendTo("body")},hide:function(){var a=this;setTimeout(function(){a.$box.remove()},1e3)}},a.alertJs=d}(window,jQuery,document);
