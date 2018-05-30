@@ -201,10 +201,14 @@
                 function showMask() {
                     disclaimerMask.show();
                     disclaimer.show();
+                    $('body').on('touchmove', function(e){
+                        e.preventDefault();
+                    });
                 }
                 function hideMask(callback) {
                     disclaimerMask.hide();
                     disclaimer.hide();
+                    $('body').off('touchmove');
                     if(typeof callback === "function") {
                         callback();
                     }
