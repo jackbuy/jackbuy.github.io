@@ -1,0 +1,109 @@
+{
+	"itemName":"山东鲁清石化商城",
+	"src":"src/logo.jpg",
+	"describe":"", 
+	"urlPath":"src/html/",
+	"list":[
+		{
+			"title" : "首页",
+			"url"   : "1.html"
+		},
+		{
+			"title" : "常见问题",
+			"url"   : "2.html"
+		},
+		{
+			"title" : "登录",
+			"url"   : "3.html"
+		},
+		{
+			"title" : "个人中心",
+			"url"   : "4.html"
+		},
+		{
+			"title" : "关于我们-公司简介",
+			"url"   : "5.html"
+		},
+		{
+			"title" : "关于我们-员工风采",
+			"url"   : "6.html"
+		},
+		{
+			"title" : "联系我们",
+			"url"   : "7.html"
+		},
+		{
+			"title" : "注册1",
+			"url"   : "8.html"
+		}, 
+		{
+			"title" : "注册2",
+			"url"   : "9.html"
+		}, 
+		{
+			"title" : "注册3",
+			"url"   : "10.html"
+		}, 
+		{
+			"title" : "待支付订单",
+			"url"   : "11.html"
+		}, 
+		{
+			"title" : "订单详情",
+			"url"   : "12.html"
+		}, 
+		{
+			"title" : "确认付款",
+			"url"   : "13.html"
+		}, 
+		{
+			"title" : "石油加工列表页",
+			"url"   : "14.html"
+		}, 
+		{
+			"title" : "所有订单",
+			"url"   : "15.html"
+		}, 
+		{
+			"title" : "提交订单",
+			"url"   : "16.html"
+		}, 
+		{
+			"title" : "我的车辆",
+			"url"   : "17.html"
+		}, 
+		{
+			"title" : "我的购物车",
+			"url"   : "18.html"
+		}, 
+		{
+			"title" : "我的交易记录",
+			"url"   : "19.html"
+		}, 
+		{
+			"title" : "新增车辆信息",
+			"url"   : "20.html"
+		}, 
+		{
+			"title" : "已关闭订单",
+			"url"   : "21.html"
+		}, 
+		{
+			"title" : "已支付订单",
+			"url"   : "22.html"
+		}, 
+		{
+			"title" : "预约开票",
+			"url"   : "23.html"
+		}, 
+		{
+			"title" : "招标采购-文件下载",
+			"url"   : "24.html"
+		}, 
+		{
+			"title" : "招标采购-招标信息",
+			"url"   : "25.html"
+		} 
+	]
+}
+ 

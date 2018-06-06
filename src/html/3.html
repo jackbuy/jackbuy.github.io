@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.min.css?version=1.0">
+    <link rel="stylesheet" type="text/css" href="css/checkbox_and_radio.css">
+    <title>登录</title>
+</head>
+<body>
+    <div class="login">
+        <div class="login-title">欢迎登录</div>
+        <div class="login-content">
+            <form action="">
+                <div class="inpt">
+                    <input type="text" placeholder="请输入用户名">
+                </div>
+                <div class="inpt">
+                    <input type="password" placeholder="请输入密码">
+                </div>
+                <div class="inpt row">
+                    <div class="inpt-side">
+                        <label class="checkbox">
+                            <input type="checkbox" name="" checked="checked" value="1">记住账号
+                        </label>
+                    </div>
+                    <div class="inpt-content">
+                        <a href="#">忘记密码?</a>
+                    </div>
+                </div>
+                <div class="inpt">
+                    <input type="submit" value="登录">
+                </div>
+                <div class="inpt mt10">
+                    <div class="reg">
+                        <span>如果还没有账号？<a href="#">立即注册</a></span>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" data-main="js/config" src="js/lib/require.min.js"></script>
+    <script type="text/javascript">
+        require(['config'],function(){
+            require(['checkbox'], function() {
+                // use javascript or jquery to do something
+                
+            });
+        });
+    </script>
+</body>
+</html>

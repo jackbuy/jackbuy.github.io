@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.min.css?version=1.0">
+    <link rel="stylesheet" type="text/css" href="css/checkbox_and_radio.css">    
+    <title>订单详情</title>
+</head>
+<body>
+    <div class="container-full top">
+        <div class="container row">
+            <div class="top-side">
+                欢迎来到山东鲁清石化商城！
+            </div>
+            <div class="top-content">
+                <span class="order"><a href="#">我的订单</a></span>
+                <span class="login-bar"><a href="JavaScript:;;" class="login-handle">登录</a> . <a href="#">注册</a></span>
+                <span class="phone">客户电话：0536-5456326</span>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="header row">
+            <div class="logo"></div>
+            <div class="search">
+                <form action="">
+                    <input type="text" placeholder="请输入商品关键词 ...">
+                    <input type="button" value="搜索商品">
+                </form>
+            </div>
+            <div class="cart-btn">
+                <div class="cart-btn-box">
+                    <div class="cart-btn-box-count">2</div>
+                    购物车
+                </div>
+            </div>
+        </div>
+        <div class="nav row">
+            <div class="nav-title">全部产品</div>
+            <div class="nav-item">
+                <div class="nav-item-title"><a href="#">石油加工</a></div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-item-title"><a href="#">石油化工</a></div>
+            </div>
+            <div class="nav-list">
+                <a href="#">我的鲁清</a>
+                <a href="#">关于我们</a>
+                <a href="#">联系我们</a>
+                <a href="#">招标采购</a>
+            </div>
+        </div>
+    </div>
+    <div class="container person row">
+        <div class="person-side">
+            <dl>
+                <dt>个人中心</dt>
+                <dd><a href="#">个人资料</a></dd>
+            </dl>
+            <dl>
+                <dt>我的订单</dt>
+                <dd><a href="#" class="active">所有订单</a></dd>
+                <dd><a href="#">待支付订单</a></dd>
+                <dd><a href="#">已支付订单</a></dd>
+                <dd><a href="#">已关闭订单</a></dd>
+                <dd><a href="#">我的交易记录</a></dd>
+            </dl>
+            <dl>
+                <dt>我的车辆</dt>
+                <dd><a href="#">我的车辆</a></dd>
+            </dl>
+            <dl>
+                <dt>发票管理</dt>
+                <dd><a href="#">预约开票</a></dd>
+            </dl>
+        </div>
+        <div class="person-content order-detail">
+            <div class="order-detail-item">
+                <div class="order-detail-item-title order-bg">确认订单详情</div>
+                <div class="order-detail-item-con row order-border">
+                    <div class="list">
+                        <p>订单状态：<span>已生效</span></p>
+                        <p>提货单位：<span>东营华联石油化工厂有限公司</span></p>
+                        <p>提货方式：<span>自行提货</span></p>
+                        <p>截止时间：<span>2018-05-01  11:19:09</span></p>                            
+                    </div>
+                    <div class="list">
+                        <p>订单编号：<span>LQ2434343434</span></p>
+                        <p>开票单位：<span>东营华联石油化工厂有限公司</span></p>
+                        <p>提货数量：<span>69.00</span></p>                            
+                        <p>提交用户：<span>山东寿光鲁清石化有限公司2</span></p>                            
+                    </div>
+                    <div class="list">
+                        <p>客户名称：<span>山东寿光鲁清石化有限公司</span></p>
+                        <p>协议编号：<span>无协议订单</span></p>
+                        <p>提交时间：<span>2018-05-01  11:19:09</span></p>                            
+                        <p>备注信息：<span></span></p>                            
+                    </div>
+                </div>
+            </div>
+            <div class="order-detail-item">
+                <div class="order-detail-item-title">确认订单产品</div>
+                <div class="order-detail-item-con">
+                    <table class="o-item-header">
+                        <tr>
+                            <th class="ta1">产品</th>
+                            <th class="ta2">状态</th>
+                            <th class="ta3">挂牌价</th>
+                            <th class="ta4">优惠价</th>
+                            <th class="ta5">执行价</th>
+                            <th class="ta6">提货数量</th>
+                            <th class="ta7">单位</th>
+                        </tr>
+                    </table>
+                    <table class="o-item-content">
+                        <tr>
+                            <td class="ta1">丙烯</td>
+                            <td class="ta2">已生效</td>
+                            <td class="ta3">¥ 7,980.00</td>
+                            <td class="ta4">¥ 7,980.00</td>
+                            <td class="ta5">¥ 7,980.00</td>
+                            <td class="ta6">69</td>
+                            <td class="ta7">吨</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="order-detail-item">
+                <div class="order-detail-item-title">
+                    选择车辆信息
+                    <div class="add-car-box">
+                        <button class="search">添加常用车辆</button>
+                        <button>新增车辆信息</button>
+                    </div>
+                </div>
+                <div class="order-detail-item-con">
+                    <table class="o-item-header">
+                        <tr>
+                            <th class="ca1">序号</th>
+                            <th class="ca2">车牌号</th>
+                            <th class="ca3">产品</th>
+                            <th class="ca4">罐体<br/>容积</th>
+                            <th class="ca5">装货<br/>数量</th>
+                            <th class="ca6">实发<br/>数量</th>
+                            <th class="ca7">单位</th>
+                            <th class="ca8">司乘姓名</th>
+                            <th class="ca9">身份证号</th>
+                            <th class="ca10">手机号</th>
+                            <th class="ca11">备注</th>
+                            <th class="ca12">存到<br/>常用</th>
+                            <th class="ca13">操作</th>
+                        </tr>
+                    </table>
+                    <table class="o-item-content car-item-list">
+                        <tr>
+                            <td class="ca1">1</td>
+                            <td class="ca2"><input type="text" value="鲁GT5023"></td>
+                            <td class="ca3">
+                                <select name="" id="">
+                                    <option value="1">丙烯</option>
+                                </select>
+                            </td>
+                            <td class="ca4"><input type="text" value="56"></td>
+                            <td class="ca5"><input type="text" value="23"></td>
+                            <td class="ca6">21.58</td>
+                            <td class="ca7"><input type="text" value="吨"></td>
+                            <td class="ca8"><input type="text" value="刘振生"></td>
+                            <td class="ca9"><input type="text" value="37072319740109211X"></td>
+                            <td class="ca10"><input type="text" value="13583665155"></td>
+                            <td class="ca11"><input type="text" value=""></td>
+                            <td class="ca12"><input type="checkbox"></td>
+                            <td class="ca13"><span>已登记</span></td>
+                        </tr>
+                        <tr>
+                            <td class="ca1">2</td>
+                            <td class="ca2"><input type="text" value="鲁GT5023"></td>
+                            <td class="ca3">
+                                <select name="" id="">
+                                    <option value="1">丙烯</option>
+                                </select>
+                            </td>
+                            <td class="ca4"><input type="text" value="56"></td>
+                            <td class="ca5"><input type="text" value="23"></td>
+                            <td class="ca6">21.58</td>
+                            <td class="ca7"><input type="text" value="吨"></td>
+                            <td class="ca8"><input type="text" value="刘振生"></td>
+                            <td class="ca9"><input type="text" value="37072319740109211X"></td>
+                            <td class="ca10"><input type="text" value="13583665155"></td>
+                            <td class="ca11"><input type="text" value=""></td>
+                            <td class="ca12"><input type="checkbox"></td>
+                            <td class="ca13"><span>已登记</span></td>
+                        </tr>
+                        <tr>
+                            <td class="ca1">3</td>
+                            <td class="ca2"><input type="text" value="鲁GT5023"></td>
+                            <td class="ca3">
+                                <select name="" id="">
+                                    <option value="1">丙烯</option>
+                                </select>
+                            </td>
+                            <td class="ca4"><input type="text" value="56"></td>
+                            <td class="ca5"><input type="text" value="23"></td>
+                            <td class="ca6">21.58</td>
+                            <td class="ca7"><input type="text" value="吨"></td>
+                            <td class="ca8"><input type="text" value="刘振生"></td>
+                            <td class="ca9"><input type="text" value="37072319740109211X"></td>
+                            <td class="ca10"><input type="text" value="13583665155"></td>
+                            <td class="ca11"><input type="text" value=""></td>
+                            <td class="ca12"><input type="checkbox"></td>
+                            <td class="ca13"><span>已登记</span></td>
+                        </tr>
+                    </table>
+                    <table class="o-item-footer">
+                        <tr>
+                            <td>
+                                <button class="save-car-info">保存车辆信息</button>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="pagination pd40">
+                        <a href="#">首页</a>
+                        <a href="#">上一页</a>
+                        <a href="#" class="active">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <span>...</span>
+                        <a href="#">100</a>
+                        <a href="#">下一页</a>
+                        <a href="#">尾页</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-full footer">
+        <div class="container row">
+            <div class="footer-link">
+                <div class="footer-link-h">
+                    <a href="#">常见问题</a><span></span>
+                    <a href="#">关于我们</a><span></span>
+                    <a href="#">联系我们</a><span></span>
+                    <a href="#">支付方式</a><span></span>
+                    <a href="#">配送方式</a>
+                </div>
+                <div class="footer-link-copy">
+                    <span>Copyright © 山东寿光鲁清石化有限公司</span>
+                    <span>版权所有备案号：鲁ICP备11035890号</span>
+                </div>
+            </div>
+            <div class="footer-phone"></div>
+            <div class="footer-ewm"></div>
+        </div>
+    </div>
+
+    <!-- 返回顶部  start -->
+    <div class="gotop"></div>
+    <!-- 返回顶部  start -->
+
+    <script type="text/javascript" data-main="js/config" src="js/lib/require.min.js"></script>
+    <script type="text/javascript">
+        require(['config'],function(){
+            require(['checkbox','common','dialog'], function() {
+                // 登录弹出框
+                $(".login-handle").on("click", function(){
+                    $.dialogPC({
+                        width:480,
+                        height:405,
+                        url:"3.html"
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.min.css?version=1.0">
+    <link rel="stylesheet" type="text/css" href="css/checkbox_and_radio.css">    
+    <title>提交订单</title>
+</head>
+<body>
+    <div class="container-full top">
+        <div class="container row">
+            <div class="top-side">
+                欢迎来到山东鲁清石化商城！
+            </div>
+            <div class="top-content">
+                <span class="order"><a href="#">我的订单</a></span>
+                <span class="login-bar"><a href="JavaScript:;;" class="login-handle">登录</a> . <a href="#">注册</a></span>
+                <span class="phone">客户电话：0536-5456326</span>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="header row">
+            <div class="logo"></div>
+            <div class="search">
+                <form action="">
+                    <input type="text" placeholder="请输入商品关键词 ...">
+                    <input type="button" value="搜索商品">
+                </form>
+            </div>
+            <div class="cart-btn">
+                <div class="cart-btn-box">
+                    <div class="cart-btn-box-count">2</div>
+                    购物车
+                </div>
+            </div>
+        </div>
+        <div class="nav row">
+            <div class="nav-title">全部产品</div>
+            <div class="nav-item">
+                <div class="nav-item-title"><a href="#">石油加工</a></div>
+            </div>
+            <div class="nav-item">
+                <div class="nav-item-title"><a href="#">石油化工</a></div>
+            </div>
+            <div class="nav-list">
+                <a href="#">我的鲁清</a>
+                <a href="#">关于我们</a>
+                <a href="#">联系我们</a>
+                <a href="#">招标采购</a>
+            </div>
+        </div>
+    </div>
+    <div class="container register">
+        <h1>我的购物车</h1>
+        <div class="register-menu line-none">
+            <div class="register-menu-list"><span>1.</span>我的购物车</div>
+            <div class="register-menu-list active"><span>2.</span>提交订单</div>
+            <div class="register-menu-list"><span>3.</span>确认付款</div>
+            <div class="register-menu-list"><span>4.</span>新增车辆信息</div>
+        </div>
+        <div class="shopping">
+            <div class="shopping-push">
+                <div class="shopping-push-item">
+                    <div class="shopping-push-item-title">确认订单详情</div>
+                    <div class="shopping-push-item-con row">
+                        <div class="list">
+                            <p>订单状态：<span>制作中</span></p>
+                            <p>截止时间：<span>2018-05-01  11:19:09</span></p>
+                            <p>提交用户：<span>山东寿光鲁清石化有限公司</span></p>
+                        </div>
+                        <div class="list">
+                            <p>订单编号：<span>LQ2434343434</span></p>
+                            <p>订单数量：<span>1</span></p>
+                            <p>地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;点：<span>鲁清</span></p>
+                        </div>
+                        <div class="list">
+                            <p>客户名称：<span>山东寿光鲁清石化有限公司</span></p>
+                            <p>提交时间：<span>2018-05-01  11:19:09</span></p>
+                            <p>备注信息：<span>2018-05-01  11:19:09</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="shopping-push-item">
+                    <div class="shopping-push-item-title">提货信息</div>
+                    <div class="shopping-push-item-con">
+                        <div class="th-type">
+                            提货方式：
+                            <label class="radio">
+                                <input type="radio" name="tp" checked="checked" value="0">自提
+                            </label>
+                            <label class="radio">
+                                <input type="radio" name="tp" value="1">鲁清石化配送
+                            </label>
+                            <span>鲁清石化配送参考价： 9999元/吨</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="shopping-push-item">
+                        <div class="shopping-push-item-title">确认订单产品</div>
+                        <div class="shopping-push-item-con pd0">
+                            <table class="o-item-header">
+                                <tr>
+                                    <th class="ta1">产品</th>
+                                    <th class="ta2">状态</th>
+                                    <th class="ta3">挂牌价</th>
+                                    <th class="ta4">优惠价</th>
+                                    <th class="ta5">执行价</th>
+                                    <th class="ta6">提货数量</th>
+                                    <th class="ta7">单位</th>
+                                </tr>
+                            </table>
+                            <table class="o-item-content">
+                                <tr>
+                                    <td class="ta1">98号车用汽油（VI）</td>
+                                    <td class="ta2">制作中</td>
+                                    <td class="ta3">¥ 7,980.00</td>
+                                    <td class="ta4">¥ 7,980.00</td>
+                                    <td class="ta5">¥ 7,980.00</td>
+                                    <td class="ta6"><input type="text" placeholder="请输入提货数量"></td>
+                                    <td class="ta7">吨</td>
+                                </tr>
+                            </table>
+                            <table class="o-item-footer">
+                                <tr>
+                                    <th>
+                                        <label for="">备注信息：</label>
+                                        <input type="text" placeholder="选填，可填写您的留言信息">
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <button>提交订单</button>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-full footer">
+        <div class="container row">
+            <div class="footer-link">
+                <div class="footer-link-h">
+                    <a href="#">常见问题</a><span></span>
+                    <a href="#">关于我们</a><span></span>
+                    <a href="#">联系我们</a><span></span>
+                    <a href="#">支付方式</a><span></span>
+                    <a href="#">配送方式</a>
+                </div>
+                <div class="footer-link-copy">
+                    <span>Copyright © 山东寿光鲁清石化有限公司</span>
+                    <span>版权所有备案号：鲁ICP备11035890号</span>
+                </div>
+            </div>
+            <div class="footer-phone"></div>
+            <div class="footer-ewm"></div>
+        </div>
+    </div>
+
+    <!-- 返回顶部  start -->
+    <div class="gotop"></div>
+    <!-- 返回顶部  start -->
+
+    <script type="text/javascript" data-main="js/config" src="js/lib/require.min.js"></script>
+    <script type="text/javascript">
+        require(['config'],function(){
+            require(['checkbox','common','dialog'], function() {
+                // 登录弹出框
+                $(".login-handle").on("click", function(){
+                    $.dialogPC({
+                        width:480,
+                        height:405,
+                        url:"3.html"
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
