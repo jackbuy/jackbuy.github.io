@@ -1,0 +1,3 @@
+/*!all-2018-07-11 */
+
+window.onload=function(){var a=document.createElement("div");a.setAttribute("class","incompatible");var b=document.createTextNode("温馨提示：由于您的浏览器太古老了，可能会影响您对本网站的用户体验，请使用IE9+、360、谷歌、火狐等现代浏览器，您可以点击这里"),c=document.createElement("a");c.setAttribute("href","https://support.microsoft.com/zh-cn/help/17621/internet-explorer-downloads"),c.setAttribute("target","_blank"),c.innerHTML="官方下载IE浏览器",a.appendChild(b),a.appendChild(c),document.body.appendChild(a)};

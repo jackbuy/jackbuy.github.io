@@ -1,108 +1,180 @@
 {
-	"itemName":"山东鲁清石化商城",
+	"itemName":"油瑞",
 	"src":"src/logo.png",
 	"describe":"", 
 	"urlPath":"src/html/",
 	"list":[
 		{
-			"title" : "首页",
+			"title" : "Careers",
 			"url"   : "1.html"
 		},
 		{
-			"title" : "常见问题",
+			"title" : "Enterprise Service",
 			"url"   : "2.html"
 		},
 		{
-			"title" : "登录",
+			"title" : "For Suppliers",
 			"url"   : "3.html"
 		},
 		{
-			"title" : "个人中心",
+			"title" : "Industry Insight  Previous Posts",
 			"url"   : "4.html"
 		},
 		{
-			"title" : "关于我们-公司简介",
+			"title" : "Industry Insight",
 			"url"   : "5.html"
 		},
 		{
-			"title" : "关于我们-员工风采",
+			"title" : "Privacy Policy",
 			"url"   : "6.html"
 		},
 		{
-			"title" : "联系我们",
+			"title" : "Support",
 			"url"   : "7.html"
 		},
 		{
-			"title" : "注册1",
+			"title" : "Terms of Service",
 			"url"   : "8.html"
 		}, 
 		{
-			"title" : "注册2",
+			"title" : "采购服务",
 			"url"   : "9.html"
 		}, 
 		{
-			"title" : "注册3",
+			"title" : "产品列表页",
 			"url"   : "10.html"
 		}, 
 		{
-			"title" : "待支付订单",
+			"title" : "产品详情页",
 			"url"   : "11.html"
 		}, 
 		{
-			"title" : "订单详情",
+			"title" : "登录页面",
 			"url"   : "12.html"
 		}, 
 		{
-			"title" : "确认付款",
+			"title" : "定制服务",
 			"url"   : "13.html"
 		}, 
 		{
-			"title" : "石油加工列表页",
+			"title" : "关于",
 			"url"   : "14.html"
 		}, 
 		{
-			"title" : "所有订单",
+			"title" : "联系我们",
 			"url"   : "15.html"
 		}, 
 		{
-			"title" : "提交订单",
+			"title" : "买家中心-采购服务",
 			"url"   : "16.html"
 		}, 
 		{
-			"title" : "我的车辆",
+			"title" : "买家中心-采购服务-view detail",
 			"url"   : "17.html"
 		}, 
 		{
-			"title" : "我的购物车",
+			"title" : "买家中心-定制生产",
 			"url"   : "18.html"
 		}, 
 		{
-			"title" : "我的交易记录",
+			"title" : "买家中心-定制生产-view detail",
 			"url"   : "19.html"
 		}, 
 		{
-			"title" : "新增车辆信息",
+			"title" : "买家中心-留言",
 			"url"   : "20.html"
 		}, 
 		{
-			"title" : "已关闭订单",
+			"title" : "买家中心-我的收藏",
 			"url"   : "21.html"
 		}, 
 		{
-			"title" : "已支付订单",
+			"title" : "买家中心-我的收藏-Inquire Now",
 			"url"   : "22.html"
 		}, 
 		{
-			"title" : "预约开票",
+			"title" : "买家中心-我的询价单",
 			"url"   : "23.html"
 		}, 
 		{
-			"title" : "招标采购-文件下载",
+			"title" : "买家中心-我的询价单-view detail",
 			"url"   : "24.html"
 		}, 
 		{
-			"title" : "招标采购-招标信息",
+			"title" : "买家中心-消息中心",
 			"url"   : "25.html"
+		} , 
+		{
+			"title" : "买家中心-消息中心-view detail",
+			"url"   : "26.html"
+		} , 
+		{
+			"title" : "买家中心-账户信息",
+			"url"   : "27.html"
+		} , 
+		{
+			"title" : "卖家中心-Account Information",
+			"url"   : "28.html"
+		} , 
+		{
+			"title" : "卖家中心-Send A Message",
+			"url"   : "29.html"
+		} , 
+		{
+			"title" : "卖家中心-上传产品-未填写",
+			"url"   : "30.html"
+		} , 
+		{
+			"title" : "卖家中心-上传产品-我已阅读",
+			"url"   : "31.html"
+		} , 
+		{
+			"title" : "卖家中心-上传产品-已填写",
+			"url"   : "32.html"
+		} , 
+		{
+			"title" : "卖家中心-我的产品",
+			"url"   : "33.html"
+		} , 
+		{
+			"title" : "卖家中心-我的产品-RFQ下view页面",
+			"url"   : "34.html"
+		} , 
+		{
+			"title" : "卖家中心-我的产品-RFQ下view页面-详情页",
+			"url"   : "35.html"
+		} , 
+		{
+			"title" : "卖家中心-我的产品-view Detail",
+			"url"   : "36.html"
+		} , 
+		{
+			"title" : "卖家中心-我的产品-View detail-提交信息",
+			"url"   : "37.html"
+		} , 
+		{
+			"title" : "卖家中心-我的产品-点击Reply Now 在当页下拉打开输入框",
+			"url"   : "38.html"
+		} , 
+		{
+			"title" : "卖家中心-我的产品-输入内容 点击发送Send",
+			"url"   : "39.html"
+		} , 
+		{
+			"title" : "首页",
+			"url"   : "40.html"
+		} , 
+		{
+			"title" : "提交询价单",
+			"url"   : "41.html"
+		} , 
+		{
+			"title" : "注册页面（买家）",
+			"url"   : "42.html"
+		} , 
+		{
+			"title" : "注册页面（卖家）",
+			"url"   : "43.html"
 		} 
 	]
 }

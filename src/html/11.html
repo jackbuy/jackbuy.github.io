@@ -1,230 +1,257 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" type="text/css" href="css/style.min.css?version=1.0">
-    <title>待支付订单</title>
+    <script type="text/javascript" src="js/lib/html5.js"></script>
+    <script type="text/javascript" src="js/lib/respond.min.js"></script>
+    <script type="text/javascript" src="js/lib/modernizr-2.6.2.min.js"></script>
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="js/script/incompatible.js"></script>
+    <![endif]-->
+    <title>Product Details</title>
 </head>
 <body>
-    <div class="container-full top">
-        <div class="container row">
-            <div class="top-side">
-                欢迎来到山东鲁清石化商城！
-            </div>
-            <div class="top-content">
-                <span class="order"><a href="#">我的订单</a></span>
-                <span class="login-bar"><a href="JavaScript:;;" class="login-handle">登录</a> . <a href="#">注册</a></span>
-                <span class="phone">客户电话：0536-5456326</span>
-            </div>
-        </div>
+
+    <!-- 三明治菜单  start -->
+    <div class="mb-nav-bg amt"></div>
+    <div class="mb-nav">
+        <span></span>
+        <span></span>
+        <span></span>
     </div>
-    <div class="container">
-        <div class="header row">
-            <div class="logo"></div>
-            <div class="search">
-                <form action="">
-                    <input type="text" placeholder="请输入商品关键词 ...">
-                    <input type="button" value="搜索商品">
-                </form>
-            </div>
-            <div class="cart-btn">
-                <div class="cart-btn-box">
-                    <div class="cart-btn-box-count">2</div>
-                    购物车
+    <!-- 三明治菜单  end -->
+
+    <header class="header type2">
+        <div class="inner">
+            <div class="top row">
+                <div class="login">
+                    <a href="#">Sign In</a>
+                    <a href="#">Join Free</a>
+                    <a href="#">Support</a>
+                </div>
+                <div class="entry">
+                    <a href="#">For Buyers</a>
+                    <a href="#">For Suppliers</a>
+                    <a href="#">My Enernovo</a>
                 </div>
             </div>
-        </div>
-        <div class="nav row">
-            <div class="nav-title">全部产品</div>
-            <div class="nav-item">
-                <div class="nav-item-title"><a href="#">石油加工</a></div>
-            </div>
-            <div class="nav-item">
-                <div class="nav-item-title"><a href="#">石油化工</a></div>
-            </div>
-            <div class="nav-list">
-                <a href="#">我的鲁清</a>
-                <a href="#">关于我们</a>
-                <a href="#">联系我们</a>
-                <a href="#">招标采购</a>
-            </div>
-        </div>
-    </div>
-    <div class="container person row">
-        <div class="person-side">
-            <dl>
-                <dt>个人中心</dt>
-                <dd><a href="#">个人资料</a></dd>
-            </dl>
-            <dl>
-                <dt>我的订单</dt>
-                <dd><a href="#">所有订单</a></dd>
-                <dd><a href="#" class="active">待支付订单</a></dd>
-                <dd><a href="#">已支付订单</a></dd>
-                <dd><a href="#">已关闭订单</a></dd>
-                <dd><a href="#">我的交易记录</a></dd>
-            </dl>
-            <dl>
-                <dt>我的车辆</dt>
-                <dd><a href="#">我的车辆</a></dd>
-            </dl>
-            <dl>
-                <dt>发票管理</dt>
-                <dd><a href="#">预约开票</a></dd>
-            </dl>
-        </div>
-        <div class="person-content order">
-            <div class="order-title">
-                <div class="order-title-name">待支付订单</div>
-                <div class="order-title-search">
+            <div class="header-bar row">
+                <div class="logo"></div>
+                <div class="search">
                     <form action="">
-                        <label for="">开始时间：</label>
-                        <input type="text">
-                        <label for="">结束时间：</label>
-                        <input type="text">
-                        <input type="submit" value="搜索">
+                        <label for="">Products</label>
+                        <input type="text" placeholder="I am looking for…">
+                        <input type="submit" value="submit">
                     </form>
                 </div>
-            </div>
-            <div class="order-content">
-                <div class="order-content-list">
-                    <div class="order-content-list-title">
-                        <table>
-                            <tr>
-                                <th class="ta1">订单详情</th>
-                                <th class="ta2">提货数量</th>
-                                <th class="ta3">订单创建时间</th>
-                                <th class="ta4">提货截止日期</th>
-                                <th class="ta5">订单状态</th>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="order-content-list-content">
-                        <table>
-                            <tr>
-                                <th colspan="5">
-                                    <span>订单号：LQ27236372618737</span>  <span>合同单号：无</span>
-                                </th>
-                            </tr>
-                            <tr>
-                                <td class="ta1">液化气</td>
-                                <td class="ta2">21.76吨</td>
-                                <td class="ta3">2018-05-08   11:35:19</td>
-                                <td class="ta4">2018-05-09   11:35:19</td>
-                                <td class="ta5">制作中</td>
-                            </tr>
-                            <tr>
-                                <td colspan="5">
-                                    <div class="order-content-list-content-menu">
-                                        <a href="#" class="prim">立即支付</a>
-                                        <a href="#">取消订单</a>
-                                    </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="order-content-list-content">
-                        <table>
-                            <tr>
-                                <th colspan="5">
-                                    <span>订单号：LQ27236372618737</span>  <span>合同单号：无</span>
-                                </th>
-                            </tr>
-                            <tr>
-                                <td class="ta1">液化气</td>
-                                <td class="ta2">21.76吨</td>
-                                <td class="ta3">2018-05-08   11:35:19</td>
-                                <td class="ta4">2018-05-09   11:35:19</td>
-                                <td class="ta5">制作中</td>
-                            </tr>
-                            <tr>
-                                <td colspan="5">
-                                    <div class="order-content-list-content-menu">
-                                        <a href="#" class="prim">立即支付</a>
-                                        <a href="#">取消订单</a>
-                                    </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="order-content-list-content">
-                        <table>
-                            <tr>
-                                <th colspan="5">
-                                    <span>订单号：LQ27236372618737</span>  <span>合同单号：无</span>
-                                </th>
-                            </tr>
-                            <tr>
-                                <td class="ta1">液化气</td>
-                                <td class="ta2">21.76吨</td>
-                                <td class="ta3">2018-05-08   11:35:19</td>
-                                <td class="ta4">2018-05-09   11:35:19</td>
-                                <td class="ta5">制作中</td>
-                            </tr>
-                            <tr>
-                                <td colspan="5">
-                                    <div class="order-content-list-content-menu">
-                                        <a href="#" class="prim">立即支付</a>
-                                        <a href="#">取消订单</a>
-                                    </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
+                <div class="res">
+                    <a href="#">Request For Quotations</a>
                 </div>
-            </div>
-            <div class="pagination">
-                <a href="#">首页</a>
-                <a href="#">上一页</a>
-                <a href="#" class="active">1</a>
-                <a href="#">2</a>
-                <a href="#">3</a>
-                <a href="#">4</a>
-                <a href="#">5</a>
-                <span>...</span>
-                <a href="#">100</a>
-                <a href="#">下一页</a>
-                <a href="#">尾页</a>
             </div>
         </div>
-    </div>
-    <div class="container-full footer">
-        <div class="container row">
-            <div class="footer-link">
-                <div class="footer-link-h">
-                    <a href="#">常见问题</a><span></span>
-                    <a href="#">关于我们</a><span></span>
-                    <a href="#">联系我们</a><span></span>
-                    <a href="#">支付方式</a><span></span>
-                    <a href="#">配送方式</a>
-                </div>
-                <div class="footer-link-copy">
-                    <span>Copyright © 山东寿光鲁清石化有限公司</span>
-                    <span>版权所有备案号：鲁ICP备11035890号</span>
+    </header>
+
+    <div class="container-full gray">
+        <div class="container prolist row">
+            <div class="prolist-side">
+                <div class="prolist-side-title">CATEGORIES</div>
+                <div class="prolist-side-content">
+                    <div class="prolist-side-content-t">Related Category</div>
+                    <div class="prolist-side-content-c">
+                        <ul class="first">
+                            <li>
+                                <a href="#">Cementing Additives</a>
+                                <ul class="second">
+                                    <li>
+                                        <a href="#">Accelerators</a>
+                                        <ul class="third">
+                                            <li><a href="#">Sodium Chloride</a></li>
+                                            <li><a href="#" class="active">Calcium Chloride</a></li>
+                                            <li><a href="#">Sodium Silicate</a></li>
+                                            <li><a href="#">Sodium Chloride</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div class="footer-phone"></div>
-            <div class="footer-ewm"></div>
+            <div class="prolist-content">
+                <div class="breadcrumb breadcrumb-list">
+                        <a href="#">Home</a> > <a href="#">Cementing Additives</a> > <a href="#">Accelerators</a> > <a href="#">Calcium Chloride</a> > <span>Product Details</span>
+                </div>
+                <div class="prodetail">
+                    <div class="prodetail-params row">
+                        <div class="side">
+                            <img src="images/detail_img.jpg" alt="">
+                            <div class="add">
+                                <a href="javascript:;;">Add to My Favorites</a>
+                            </div>
+                        </div>
+                        <div class="con">
+                            <div class="con-tit">
+                                Calcium Chloride 94-96%
+                            </div>
+                            <div class="con-con">
+                                <div class="part-one">
+                                    <ul>
+                                        <li><span class="t">Formula :</span><span class="c">CaCl2</span></li>
+                                        <li><span class="t">Type :</span><span class="c">Calcium Chloride ,salt</span></li>
+                                    </ul>
+                                </div>
+                                <div class="part-two">
+                                    <ul>
+                                        <li><span class="t">Packaging :</span><span class="c">25kg/bag</span></li>
+                                        <li><span class="t">FCL :</span><span class="c">20 MT</span></li>
+                                        <li><span class="t">Place of Origin :</span><span class="c">Tianjin, China</span></li>
+                                        <li><span class="t">Port of Departure :</span><span class="c">Tianjin port, China</span></li>
+                                    </ul>
+                                </div>
+                                <div class="part-three">
+                                    <ul>
+                                        <li><span class="t">Appearance : </span><span class="c">White Pellet, granule</span></li>
+                                        <li><span class="t">Other Name : </span><span class="c">Calcium Chloride Anhydrate</span></li>
+                                    </ul>
+                                </div>
+                                <div class="part-four">
+                                    <ul>
+                                        <li><span class="t">Supply Capacity :</span><span class="c">100MT per Month</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prodetail-des">
+                        <div class="prodetail-des-title">
+                            <a href="#tb1" class="active">Product Description</a>
+                            <a href="#tb2">Specification</a>
+                            <a href="#tb3">Inquiry</a>
+                        </div>
+                        <div class="prodetail-des-content">
+                            <div class="item" id="tb1">
+                                <div class="item-tit">Packaging & Delivery</div>
+                                <div class="item-con">
+                                    <div class="li">
+                                        <span class="t">Packaging Details:</span>
+                                        <span>Net each in 25kg craft paper bag, inner lined with PE bag (or plastic woven bag lined with PE bag).</span>
+                                    </div>
+                                    <div class="li">
+                                        <span class="t">Delivery Time: </span>
+                                        <span>Ex-works 15 days upon order confirmation</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item-tit">Product Description</div>
+                                <div class="item-con">
+                                    <p>Calcium Chloride is used in oil well drilling fluids, dehydrate agent in petrochemical. It can increase hardness of concreteand increase cold resistance ability of the construction.</p>
+                                    <p>It should be stored in a cool, dry, well ventilated place. Keep container tightly closed away from incompatible materials.</p>
+                                    <p>Appearance White Pellet</p>
+                                    <p>Main content% ≥94</p>
+                                    <p>Insoluble in water% ≤0.05</p>
+                                    <p>Alkalinity(base on Ca(OH)2)%≤0.2</p>
+                                    <p>Sulphate% ≤0.1</p>
+                                    <p>Magnesium or Alkali metals chloride(base on NaCl)% ≤5.5</p>
+                                </div>
+                            </div>
+                            <div class="item" id="tb2">
+                                <div class="item-tit">Specification</div>
+                                <div class="item-con">
+                                    <p>Calcium Chloride Anhydrous (CaCl2)</p>
+                                    <p>Appearance White Pellet</p>
+                                    <p>Main content% ≥94</p>
+                                    <p>Insoluable in water% ≤0.05</p>
+                                    <p>Alkalinity(base on Ca(OH)2)%≤0.2</p>
+                                    <p>Sulphate% ≤0.1</p>
+                                    <p>Magnesium or Alkali metals chloride(base on NaCl)% ≤5.5</p>
+                                    <img src="images/detail_img01.jpg" alt="">
+                                    <img src="images/detail_img02.jpg" alt="">
+                                    <img src="images/detail_img03.jpg" alt="">
+                                    <img src="images/detail_img04.jpg" alt="">
+                                    <img src="images/detail_img05.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tb3"></div>
+                    <div class="prodetail-inquiry">
+                        <div class="prodetail-inquiry-title">
+                            Send your message or inquiries
+                        </div>
+                        <div class="prodetail-inquiry-con">
+                            <form action="">
+                                <div class="inpt row">
+                                    <div class="side"><span>*</span>Message::</div>
+                                    <div class="con"><textarea name="" id="" placeholder="Enter your inquiry details such as product type,specs,quantity,etc."></textarea></div>
+                                </div>
+                                <div class="inpt row">
+                                    <div class="side"><span>&nbsp;</span>Your Name:</div>
+                                    <div class="con"><input type="text"></div>
+                                </div>
+                                <div class="inpt row">
+                                    <div class="side"><span>&nbsp;</span>Company Name:</div>
+                                    <div class="con"><input type="text"></div>
+                                </div>
+                                <div class="inpt row">
+                                    <div class="side"><span>&nbsp;</span>Your Tel:</div>
+                                    <div class="con"><input type="text"></div>
+                                </div>
+                                <div class="inpt row">
+                                    <div class="side"><span>*</span>Your E-mail:</div>
+                                    <div class="con"><input type="text"></div>
+                                </div>
+                                <div class="inpt row">
+                                    <div class="side">&nbsp;</div>
+                                    <div class="con"><input type="submit" value="Send"></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
+    <footer class="footer">
+        <div class="link">
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Careers</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms Of Service</a>
+        </div>
+        <div class="copy">
+            <span>©2018 Oilrise.com All rights reserved</span>
+            <span>service@enernovo.com</span>
+        </div>
+        <div class="share">
+            <a href="#" class="sina"></a>
+            <a href="#" class="tencent"></a>
+            <a href="#" class="wechat"></a>
+            <a href="#" class="facebook"></a>
+            <a href="#" class="twitter"></a>
+        </div>
+    </footer>
+
     <!-- 返回顶部  start -->
     <div class="gotop"></div>
-    <!-- 返回顶部  start -->
+    <!-- 返回顶部  end -->
 
     <script type="text/javascript" data-main="js/config" src="js/lib/require.min.js"></script>
     <script type="text/javascript">
         require(['config'],function(){
-            require(['common','dialog'], function() {
-                // 登录弹出框
-                $(".login-handle").on("click", function(){
-                    $.dialogPC({
-                        width:480,
-                        height:405,
-                        url:"3.html"
-                    });
-                });
+            require(['common', 'detail'], function() {
+                // use javascript or jquery to do something
+                
             });
         });
     </script>

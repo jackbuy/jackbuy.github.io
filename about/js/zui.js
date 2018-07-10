@@ -95,7 +95,7 @@
 			var path=data.urlPath;//获取相对路径
 			list+='<ul>';
 				$.each(data.list,function(key,value){  
-					list+='<li><a href="'+(value.url==""?'#':path+value.url)+'" target="_blank">'+value.title+'</a></li>';
+					list+='<li><a href="'+(value.url==""?'#':path+encodeURI(value.url))+'" target="_blank">'+value.title+'</a></li>';
 				})   
 			list+='</ul>'; 
 			_this.itemLists=$(list).appendTo(_this.$itemListsCon);

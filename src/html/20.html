@@ -1,230 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" type="text/css" href="css/style.min.css?version=1.0">
-    <title>新增车辆信息</title>
+    <script type="text/javascript" src="js/lib/html5.js"></script>
+    <script type="text/javascript" src="js/lib/respond.min.js"></script>
+    <script type="text/javascript" src="js/lib/modernizr-2.6.2.min.js"></script>
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="js/script/incompatible.js"></script>
+    <![endif]-->
+    <title>Send A New Message</title>
 </head>
 <body>
-    <div class="container-full top">
-        <div class="container row">
-            <div class="top-side">
-                欢迎来到山东鲁清石化商城！
-            </div>
-            <div class="top-content">
-                <span class="order"><a href="#">我的订单</a></span>
-                <span class="login-bar"><a href="JavaScript:;;" class="login-handle">登录</a> . <a href="#">注册</a></span>
-                <span class="phone">客户电话：0536-5456326</span>
-            </div>
-        </div>
+
+    <!-- 三明治菜单  start -->
+    <div class="mb-nav-bg amt"></div>
+    <div class="mb-nav">
+        <span></span>
+        <span></span>
+        <span></span>
     </div>
-    <div class="container">
-        <div class="header row">
-            <div class="logo"></div>
-            <div class="search">
-                <form action="">
-                    <input type="text" placeholder="请输入商品关键词 ...">
-                    <input type="button" value="搜索商品">
-                </form>
+    <!-- 三明治菜单  end -->
+    <header class="header type2">
+        <div class="inner">
+            <div class="top row">
+                <div class="login">
+                    <a href="#">Sign In</a>
+                    <a href="#">Join Free</a>
+                    <a href="#">Support</a>
+                </div>
+                <div class="entry">
+                    <a href="#">For Buyers</a>
+                    <a href="#">For Suppliers</a>
+                    <a href="#">My Enernovo</a>
+                </div>
             </div>
-            <div class="cart-btn">
-                <div class="cart-btn-box">
-                    <div class="cart-btn-box-count">2</div>
-                    购物车
+            <div class="header-bar row">
+                <div class="logo"></div>
+                <div class="search">
+                    <form action="">
+                        <label for="">Products</label>
+                        <input type="text" placeholder="I am looking for…">
+                        <input type="submit" value="submit">
+                    </form>
+                </div>
+                <div class="res">
+                    <a href="#">Request For Quotations</a>
                 </div>
             </div>
         </div>
-        <div class="nav row">
-            <div class="nav-title">全部产品</div>
-            <div class="nav-item">
-                <div class="nav-item-title"><a href="#">石油加工</a></div>
-            </div>
-            <div class="nav-item">
-                <div class="nav-item-title"><a href="#">石油化工</a></div>
-            </div>
-            <div class="nav-list">
-                <a href="#">我的鲁清</a>
-                <a href="#">关于我们</a>
-                <a href="#">联系我们</a>
-                <a href="#">招标采购</a>
-            </div>
+    </header>
+
+    <div class="container buy">
+        <div class="breadcrumb">
+                <a href="#">Home</a> > <span>My Enernovo</span>
         </div>
-    </div>
-    <div class="container register">
-        <h1>我的购物车</h1>
-        <div class="register-menu line-none">
-            <div class="register-menu-list"><span>1.</span>我的购物车</div>
-            <div class="register-menu-list"><span>2.</span>提交订单</div>
-            <div class="register-menu-list"><span>3.</span>确认付款</div>
-            <div class="register-menu-list active"><span>4.</span>新增车辆信息</div>
-        </div>
-        <div class="shopping">
-            <div class="shopping-push">
-                <div class="shopping-push-item">
-                    <div class="shopping-push-item-title">订单明细</div>
-                    <div class="shopping-push-item-con row">
-                        <div class="list">
-                            <p>订单状态：<span>等待支付</span></p>
-                            <p>结算方式：<span>自提</span></p>
-                            <p>截止日期：<span>2018-05-01  11:19:09</span></p>
-                            <p>备注信息：<span>无</span></p>                            
+        <div class="buy-content row">
+            <div class="buy-content-side">
+                <ul>
+                    <li><a href="#">My Favorites</a></li>
+                    <li><a href="#">My RFQ</a></li>
+                    <li><a href="#">Sourcing Service</a></li>
+                    <li><a href="#">Custom Manufacturing</a></li>
+                    <li><a href="#">My Message & Inquiry</a></li>
+                    <li><a href="#" class="active">Send A New Message</a></li>
+                    <li><a href="#">Account Information</a></li>
+                </ul>
+            </div>
+            <div class="buy-content-content sendmsg">
+                <div class="sendmsg-title">Send A New Message to Enernovo.com</div>
+                <div class="sendmsg-content">
+                    <form action="">
+                        <div class="inpt row">
+                            <div class="side">Title:</div>
+                            <div class="con"><input type="text"></div>
                         </div>
-                        <div class="list">
-                            <p>订单编号：<span>LQ2434343434</span></p>
-                            <p>订单数量：<span>1</span></p>
-                            <p>提交用户：<span>山东寿光鲁清石化有限公司</span></p>                            
+                        <div class="inpt row">
+                            <div class="side">Message:</div>
+                            <div class="con"><textarea></textarea></div>
                         </div>
-                        <div class="list">
-                            <p>客户名称：<span>山东寿光鲁清石化有限公司</span></p>
-                            <p>提交时间：<span>2018-05-01  11:19:09</span></p>
-                            <p>地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;点：<span>鲁清石化</span></p>                            
+                        <div class="inpt row">
+                            <div class="side">&nbsp;</div>
+                            <div class="con"><input type="submit" value="Send"></div>
                         </div>
-                    </div>
-                </div>
-                <div class="shopping-push-item">
-                    <div class="shopping-push-item-title">产品信息</div>
-                    <div class="shopping-push-item-con pd0">
-                        <table class="o-item-header">
-                            <tr>
-                                <th class="ta1">产品</th>
-                                <th class="ta2">挂牌价</th>
-                                <th class="ta3">优惠价</th>
-                                <th class="ta4">执行价</th>
-                                <th class="ta5">订单数量</th>
-                                <th class="ta6">单位</th>
-                                <th class="ta7">优惠方案</th>
-                            </tr>
-                        </table>
-                        <table class="o-item-content">
-                            <tr>
-                                <td class="ta1">98号车用汽油（VI）</td>
-                                <td class="ta2">¥ 7,980.00</td>
-                                <td class="ta3">¥ 7,980.00</td>
-                                <td class="ta4">¥ 7,980.00</td>
-                                <td class="ta5">1</td>
-                                <td class="ta6">吨</td>
-                                <td class="ta7">无</td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-                <div class="shopping-push-item">
-                    <div class="shopping-push-item-title">
-                        选择车辆信息
-                        <div class="add-car-box">
-                            <button class="search">添加常用车辆</button>
-                            <button>新增车辆信息</button>
-                        </div>
-                    </div>
-                    <div class="shopping-push-item-con pd0">
-                        <table class="o-item-header">
-                            <tr>
-                                <th class="ca1">序号</th>
-                                <th class="ca2">车牌号</th>
-                                <th class="ca3">产品</th>
-                                <th class="ca4">罐体<br/>容积</th>
-                                <th class="ca5">装货<br/>数量</th>
-                                <th class="ca6">实发<br/>数量</th>
-                                <th class="ca7">单位</th>
-                                <th class="ca8">司乘姓名</th>
-                                <th class="ca9">身份证号</th>
-                                <th class="ca10">手机号</th>
-                                <th class="ca11">备注</th>
-                                <th class="ca12">存到<br/>常用</th>
-                                <th class="ca13">操作</th>
-                            </tr>
-                        </table>
-                        <table class="o-item-content car-item-list">
-                            <tr>
-                                <td class="ca1">1</td>
-                                <td class="ca2"><input type="text" value="鲁GT5023"></td>
-                                <td class="ca3">
-                                    <select name="" id="">
-                                        <option value="1">丙烯</option>
-                                    </select>
-                                </td>
-                                <td class="ca4"><input type="text" value="56"></td>
-                                <td class="ca5"><input type="text" value="23"></td>
-                                <td class="ca6">21.58</td>
-                                <td class="ca7"><input type="text" value="吨"></td>
-                                <td class="ca8"><input type="text" value="刘振生"></td>
-                                <td class="ca9"><input type="text" value="37072319740109211X"></td>
-                                <td class="ca10"><input type="text" value="13583665155"></td>
-                                <td class="ca11"><input type="text" value=""></td>
-                                <td class="ca12"><input type="checkbox"></td>
-                                <td class="ca13"><span>已登记</span></td>
-                            </tr>
-                            <tr>
-                                <td class="ca1">2</td>
-                                <td class="ca2"><input type="text" value="鲁GT5023"></td>
-                                <td class="ca3">
-                                    <select name="" id="">
-                                        <option value="1">丙烯</option>
-                                    </select>
-                                </td>
-                                <td class="ca4"><input type="text" value="56"></td>
-                                <td class="ca5"><input type="text" value="23"></td>
-                                <td class="ca6">21.58</td>
-                                <td class="ca7"><input type="text" value="吨"></td>
-                                <td class="ca8"><input type="text" value="刘振生"></td>
-                                <td class="ca9"><input type="text" value="37072319740109211X"></td>
-                                <td class="ca10"><input type="text" value="13583665155"></td>
-                                <td class="ca11"><input type="text" value=""></td>
-                                <td class="ca12"><input type="checkbox"></td>
-                                <td class="ca13"><span>已登记</span></td>
-                            </tr>
-                            <tr>
-                                <td class="ca1">3</td>
-                                <td class="ca2"><input type="text" value="鲁GT5023"></td>
-                                <td class="ca3">
-                                    <select name="" id="">
-                                        <option value="1">丙烯</option>
-                                    </select>
-                                </td>
-                                <td class="ca4"><input type="text" value="56"></td>
-                                <td class="ca5"><input type="text" value="23"></td>
-                                <td class="ca6">21.58</td>
-                                <td class="ca7"><input type="text" value="吨"></td>
-                                <td class="ca8"><input type="text" value="刘振生"></td>
-                                <td class="ca9"><input type="text" value="37072319740109211X"></td>
-                                <td class="ca10"><input type="text" value="13583665155"></td>
-                                <td class="ca11"><input type="text" value=""></td>
-                                <td class="ca12"><input type="checkbox"></td>
-                                <td class="ca13"><span>已登记</span></td>
-                            </tr>
-                        </table>
-                        <table class="o-item-footer">
-                            <tr>
-                                <td>
-                                    <button class="save-car-info">保存车辆信息</button>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-full footer">
-        <div class="container row">
-            <div class="footer-link">
-                <div class="footer-link-h">
-                    <a href="#">常见问题</a><span></span>
-                    <a href="#">关于我们</a><span></span>
-                    <a href="#">联系我们</a><span></span>
-                    <a href="#">支付方式</a><span></span>
-                    <a href="#">配送方式</a>
-                </div>
-                <div class="footer-link-copy">
-                    <span>Copyright © 山东寿光鲁清石化有限公司</span>
-                    <span>版权所有备案号：鲁ICP备11035890号</span>
-                </div>
-            </div>
-            <div class="footer-phone"></div>
-            <div class="footer-ewm"></div>
+
+    <footer class="footer">
+        <div class="link">
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Careers</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms Of Service</a>
         </div>
-    </div>
+        <div class="copy">
+            <span>©2018 Oilrise.com All rights reserved</span>
+            <span>service@enernovo.com</span>
+        </div>
+        <div class="share">
+            <a href="#" class="sina"></a>
+            <a href="#" class="tencent"></a>
+            <a href="#" class="wechat"></a>
+            <a href="#" class="facebook"></a>
+            <a href="#" class="twitter"></a>
+        </div>
+    </footer>
 
     <!-- 返回顶部  start -->
     <div class="gotop"></div>
@@ -233,15 +124,9 @@
     <script type="text/javascript" data-main="js/config" src="js/lib/require.min.js"></script>
     <script type="text/javascript">
         require(['config'],function(){
-            require(['common','dialog'], function() {
-                // 登录弹出框
-                $(".login-handle").on("click", function(){
-                    $.dialogPC({
-                        width:480,
-                        height:405,
-                        url:"3.html"
-                    });
-                });
+            require(['common'], function() {
+                // use javascript or jquery to do something
+                
             });
         });
     </script>

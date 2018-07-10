@@ -5,19 +5,17 @@ require.config({
     paths:{
         "jquery": "lib/jquery-1.9.0.min",
         "common": "script/common",
-        "dialog": "script/dialog",
-        "turn": "script/turn",
+        "support": "script/support",
+        "detail": "script/detail",
         "slider": "script/slider",
-        "videoMask": "script/videoMask",
-        "checkbox": "lib/custom_checkbox_and_radio"
+        "changepsw": "script/changepsw",
     },
     shim:{
         "common": ["jquery"],
-        "dialog": ["jquery"],
-        "turn": ["jquery"],
+        "support": ["jquery"],
+        "detail": ["jquery"],
         "slider": ["jquery"],
-        "videoMask": ["jquery"],
-        "checkbox": ["jquery"]
+        "changepsw": ["jquery"],
     },
     urlArgs: "bust=" +  (new Date()).getTime(),
     waitSeconds: 0

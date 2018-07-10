@@ -1,0 +1,3 @@
+/*!all-2018-07-11 */
+
+$(function(){function a(){$(window).scrollTop()>g?b.addClass("active"):b.removeClass("active"),$(window).scrollTop()>=h&&b.find("a").eq(0).addClass("active").siblings().removeClass("active"),$(window).scrollTop()>=i&&b.find("a").eq(1).addClass("active").siblings().removeClass("active"),$(window).scrollTop()>=j&&b.find("a").eq(2).addClass("active").siblings().removeClass("active")}var b=$(".prodetail-des-title"),c=$("#tb1"),d=$("#tb2"),e=$("#tb3"),f=b.height()+40,g=b.offset().top,h=c.offset().top-f,i=d.offset().top-f,j=e.offset().top-f;a(),$(window).on("scroll",a)});

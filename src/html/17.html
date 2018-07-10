@@ -1,259 +1,147 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" type="text/css" href="css/style.min.css?version=1.0">
-    <title>我的车辆</title>
+    <script type="text/javascript" src="js/lib/html5.js"></script>
+    <script type="text/javascript" src="js/lib/respond.min.js"></script>
+    <script type="text/javascript" src="js/lib/modernizr-2.6.2.min.js"></script>
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="js/script/incompatible.js"></script>
+    <![endif]-->
+    <title>Sourcing Service Detail</title>
 </head>
 <body>
-    <div class="container-full top">
-        <div class="container row">
-            <div class="top-side">
-                欢迎来到山东鲁清石化商城！
-            </div>
-            <div class="top-content">
-                <span class="order"><a href="#">我的订单</a></span>
-                <span class="login-bar"><a href="JavaScript:;;" class="login-handle">登录</a> . <a href="#">注册</a></span>
-                <span class="phone">客户电话：0536-5456326</span>
-            </div>
-        </div>
+
+    <!-- 三明治菜单  start -->
+    <div class="mb-nav-bg amt"></div>
+    <div class="mb-nav">
+        <span></span>
+        <span></span>
+        <span></span>
     </div>
-    <div class="container">
-        <div class="header row">
-            <div class="logo"></div>
-            <div class="search">
-                <form action="">
-                    <input type="text" placeholder="请输入商品关键词 ...">
-                    <input type="button" value="搜索商品">
-                </form>
+    <!-- 三明治菜单  end -->
+    <header class="header type2">
+        <div class="inner">
+            <div class="top row">
+                <div class="login">
+                    <a href="#">Sign In</a>
+                    <a href="#">Join Free</a>
+                    <a href="#">Support</a>
+                </div>
+                <div class="entry">
+                    <a href="#">For Buyers</a>
+                    <a href="#">For Suppliers</a>
+                    <a href="#">My Enernovo</a>
+                </div>
             </div>
-            <div class="cart-btn">
-                <div class="cart-btn-box">
-                    <div class="cart-btn-box-count">2</div>
-                    购物车
+            <div class="header-bar row">
+                <div class="logo"></div>
+                <div class="search">
+                    <form action="">
+                        <label for="">Products</label>
+                        <input type="text" placeholder="I am looking for…">
+                        <input type="submit" value="submit">
+                    </form>
+                </div>
+                <div class="res">
+                    <a href="#">Request For Quotations</a>
                 </div>
             </div>
         </div>
-        <div class="nav row">
-            <div class="nav-title">全部产品</div>
-            <div class="nav-item">
-                <div class="nav-item-title"><a href="#">石油加工</a></div>
-            </div>
-            <div class="nav-item">
-                <div class="nav-item-title"><a href="#">石油化工</a></div>
-            </div>
-            <div class="nav-list">
-                <a href="#">我的鲁清</a>
-                <a href="#">关于我们</a>
-                <a href="#">联系我们</a>
-                <a href="#">招标采购</a>
-            </div>
+    </header>
+
+    <div class="container buy">
+        <div class="breadcrumb">
+                <a href="#">Home</a> > <span>My Enernovo</span>
         </div>
-    </div>
-    <div class="container person row">
-        <div class="person-side">
-            <dl>
-                <dt>个人中心</dt>
-                <dd><a href="#">个人资料</a></dd>
-            </dl>
-            <dl>
-                <dt>我的订单</dt>
-                <dd><a href="#">所有订单</a></dd>
-                <dd><a href="#">待支付订单</a></dd>
-                <dd><a href="#">已支付订单</a></dd>
-                <dd><a href="#">已关闭订单</a></dd>
-                <dd><a href="#">我的交易记录</a></dd>
-            </dl>
-            <dl>
-                <dt>我的车辆</dt>
-                <dd><a href="#" class="active">我的车辆</a></dd>
-            </dl>
-            <dl>
-                <dt>发票管理</dt>
-                <dd><a href="#">预约开票</a></dd>
-            </dl>
-        </div>
-        <div class="person-content my-car">
-            <div class="my-car-title">
-                常用车辆信息维护
+        <div class="buy-content row">
+            <div class="buy-content-side">
+                <ul>
+                    <li><a href="#">My Favorites</a></li>
+                    <li><a href="#">My RFQ</a></li>
+                    <li><a href="#" class="active">Sourcing Service</a></li>
+                    <li><a href="#">Custom Manufacturing</a></li>
+                    <li><a href="#">My Message & Inquiry</a></li>
+                    <li><a href="#">Send A New Message</a></li>
+                    <li><a href="#">Account Information</a></li>
+                </ul>
             </div>
-            <div class="my-car-content">
-                <table class="my-car-content-header">
-                    <tr>
-                        <th class="ca1">序号</th>
-                        <th class="ca2">选择</th>
-                        <th class="ca3">司乘姓名</th>
-                        <th class="ca4">车牌号</th>
-                        <th class="ca5">身份证号</th>
-                        <th class="ca6">手机号</th>
-                        <th class="ca7">备注</th>
-                        <th class="ca8">操作</th>
-                    </tr>
-                </table>
-                <table class="my-car-content-content">
-                    <tr>
-                        <td class="ca1">1</td>
-                        <td class="ca2"><input type="checkbox"></td>
-                        <td class="ca3"><input type="text" value="张胜敏"></td>
-                        <td class="ca4"><input type="text" value="鲁GT5023"></td>
-                        <td class="ca5"><input type="text" value="37072319740109211X"></td>
-                        <td class="ca6"><input type="text" value="13583665155"></td>
-                        <td class="ca7"><input type="text" value=""></td>
-                        <td class="ca8"><button class="del">删除</button></td>
-                    </tr>
-                    <tr>
-                        <td class="ca1">2</td>
-                        <td class="ca2"><input type="checkbox"></td>
-                        <td class="ca3"><input type="text" value="张胜敏"></td>
-                        <td class="ca4"><input type="text" value="鲁GT5023"></td>
-                        <td class="ca5"><input type="text" value="37072319740109211X"></td>
-                        <td class="ca6"><input type="text" value="13583665155"></td>
-                        <td class="ca7"><input type="text" value=""></td>
-                        <td class="ca8"><button class="del">删除</button></td>
-                    </tr>
-                    <tr>
-                        <td class="ca1">3</td>
-                        <td class="ca2"><input type="checkbox"></td>
-                        <td class="ca3"><input type="text" value="张胜敏"></td>
-                        <td class="ca4"><input type="text" value="鲁GT5023"></td>
-                        <td class="ca5"><input type="text" value="37072319740109211X"></td>
-                        <td class="ca6"><input type="text" value="13583665155"></td>
-                        <td class="ca7"><input type="text" value=""></td>
-                        <td class="ca8"><button class="del">删除</button></td>
-                    </tr>
-                    <tr>
-                        <td class="ca1">4</td>
-                        <td class="ca2"><input type="checkbox"></td>
-                        <td class="ca3"><input type="text" value="张胜敏"></td>
-                        <td class="ca4"><input type="text" value="鲁GT5023"></td>
-                        <td class="ca5"><input type="text" value="37072319740109211X"></td>
-                        <td class="ca6"><input type="text" value="13583665155"></td>
-                        <td class="ca7"><input type="text" value=""></td>
-                        <td class="ca8"><button class="del">删除</button></td>
-                    </tr>
-                    <tr>
-                        <td class="ca1">5</td>
-                        <td class="ca2"><input type="checkbox"></td>
-                        <td class="ca3"><input type="text" value="张胜敏"></td>
-                        <td class="ca4"><input type="text" value="鲁GT5023"></td>
-                        <td class="ca5"><input type="text" value="37072319740109211X"></td>
-                        <td class="ca6"><input type="text" value="13583665155"></td>
-                        <td class="ca7"><input type="text" value=""></td>
-                        <td class="ca8"><button class="del">删除</button></td>
-                    </tr>
-                    <tr>
-                        <td class="ca1">6</td>
-                        <td class="ca2"><input type="checkbox"></td>
-                        <td class="ca3"><input type="text" value="张胜敏"></td>
-                        <td class="ca4"><input type="text" value="鲁GT5023"></td>
-                        <td class="ca5"><input type="text" value="37072319740109211X"></td>
-                        <td class="ca6"><input type="text" value="13583665155"></td>
-                        <td class="ca7"><input type="text" value=""></td>
-                        <td class="ca8"><button class="del">删除</button></td>
-                    </tr>
-                    <tr>
-                        <td class="ca1">7</td>
-                        <td class="ca2"><input type="checkbox"></td>
-                        <td class="ca3"><input type="text" value="张胜敏"></td>
-                        <td class="ca4"><input type="text" value="鲁GT5023"></td>
-                        <td class="ca5"><input type="text" value="37072319740109211X"></td>
-                        <td class="ca6"><input type="text" value="13583665155"></td>
-                        <td class="ca7"><input type="text" value=""></td>
-                        <td class="ca8"><button class="del">删除</button></td>
-                    </tr>
-                    <tr>
-                        <td class="ca1">8</td>
-                        <td class="ca2"><input type="checkbox"></td>
-                        <td class="ca3"><input type="text" value="张胜敏"></td>
-                        <td class="ca4"><input type="text" value="鲁GT5023"></td>
-                        <td class="ca5"><input type="text" value="37072319740109211X"></td>
-                        <td class="ca6"><input type="text" value="13583665155"></td>
-                        <td class="ca7"><input type="text" value=""></td>
-                        <td class="ca8"><button class="del">删除</button></td>
-                    </tr>
-                    <tr>
-                        <td class="ca1">9</td>
-                        <td class="ca2"><input type="checkbox"></td>
-                        <td class="ca3"><input type="text" value="张胜敏"></td>
-                        <td class="ca4"><input type="text" value="鲁GT5023"></td>
-                        <td class="ca5"><input type="text" value="37072319740109211X"></td>
-                        <td class="ca6"><input type="text" value="13583665155"></td>
-                        <td class="ca7"><input type="text" value=""></td>
-                        <td class="ca8"><button class="del">删除</button></td>
-                    </tr>
-                    <tr>
-                        <td class="ca1">10</td>
-                        <td class="ca2"><input type="checkbox"></td>
-                        <td class="ca3"><input type="text" value="张胜敏"></td>
-                        <td class="ca4"><input type="text" value="鲁GT5023"></td>
-                        <td class="ca5"><input type="text" value="37072319740109211X"></td>
-                        <td class="ca6"><input type="text" value="13583665155"></td>
-                        <td class="ca7"><input type="text" value=""></td>
-                        <td class="ca8"><button class="del">删除</button></td>
-                    </tr>
-                    <tr>
-                        <td class="ca1">11</td>
-                        <td class="ca2"><input type="checkbox"></td>
-                        <td class="ca3"><input type="text" value=""></td>
-                        <td class="ca4"><input type="text" value=""></td>
-                        <td class="ca5"><input type="text" value=""></td>
-                        <td class="ca6"><input type="text" value=""></td>
-                        <td class="ca7"><input type="text" value=""></td>
-                        <td class="ca8"><button class="del">删除</button></td>
-                    </tr>
-                </table>
-                <table class="my-car-content-footer">
-                    <tr>
-                        <td>
-                            <label for="all">全选</label>
-                            <input type="checkbox" name="all" id="all">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="my-car-content-footer-menu">
-                                <button class="save">保&nbsp;&nbsp;存</button>
-                                <button class="add-car-info">新增车辆信息</button>
+            <div class="buy-content-content view-detail">
+                <div class="close"></div>
+                <div class="view-detail-tit">ltem Detail</div>
+                <div class="view-detail-con">
+                    <div class="item">
+                        <div class="item-name">ltem 1:</div>
+                        <div class="item-con">
+                            <div class="li"><span>Product Name:</span> Product-Product-Product1</div>
+                            <div class="li"><span>Quantity:</span> 10 Tons</div>
+                            <div class="li"><span>Destination:</span> Dubai</div>
+                            <div class="li"><span>Timeline:</span> 2018-07-28</div>
+                            <div class="li"><span>Specification or Message:</span></div>
+                            <div class="li">
+                                <p>DearSirMadam,DetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetails</p>
                             </div>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <div class="pagination">
-                <a href="#">首页</a>
-                <a href="#">上一页</a>
-                <a href="#" class="active">1</a>
-                <a href="#">2</a>
-                <a href="#">3</a>
-                <a href="#">4</a>
-                <a href="#">5</a>
-                <span>...</span>
-                <a href="#">100</a>
-                <a href="#">下一页</a>
-                <a href="#">尾页</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-name">ltem 2:</div>
+                        <div class="item-con">
+                            <div class="li"><span>Product Name:</span> Product-Product-Product1</div>
+                            <div class="li"><span>Quantity:</span> 10 Tons</div>
+                            <div class="li"><span>Destination:</span> Dubai</div>
+                            <div class="li"><span>Timeline:</span> 2018-07-28</div>
+                            <div class="li"><span>Specification or Message:</span></div>
+                            <div class="li">
+                                <p>Dear Sir/Madam,DetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetails</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-name">ltem 3:</div>
+                        <div class="item-con">
+                            <div class="li"><span>Product Name:</span> Product-Product-Product1</div>
+                            <div class="li"><span>Quantity:</span> 10 Tons</div>
+                            <div class="li"><span>Destination:</span> Dubai</div>
+                            <div class="li"><span>Timeline:</span> 2018-07-28</div>
+                            <div class="li"><span>Specification or Message:</span></div>
+                            <div class="li">
+                                <p>Dear Sir/Madam,DetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetails</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="container-full footer">
-        <div class="container row">
-            <div class="footer-link">
-                <div class="footer-link-h">
-                    <a href="#">常见问题</a><span></span>
-                    <a href="#">关于我们</a><span></span>
-                    <a href="#">联系我们</a><span></span>
-                    <a href="#">支付方式</a><span></span>
-                    <a href="#">配送方式</a>
-                </div>
-                <div class="footer-link-copy">
-                    <span>Copyright © 山东寿光鲁清石化有限公司</span>
-                    <span>版权所有备案号：鲁ICP备11035890号</span>
-                </div>
-            </div>
-            <div class="footer-phone"></div>
-            <div class="footer-ewm"></div>
+
+    <footer class="footer">
+        <div class="link">
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Careers</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms Of Service</a>
         </div>
-    </div>
+        <div class="copy">
+            <span>©2018 Oilrise.com All rights reserved</span>
+            <span>service@enernovo.com</span>
+        </div>
+        <div class="share">
+            <a href="#" class="sina"></a>
+            <a href="#" class="tencent"></a>
+            <a href="#" class="wechat"></a>
+            <a href="#" class="facebook"></a>
+            <a href="#" class="twitter"></a>
+        </div>
+    </footer>
 
     <!-- 返回顶部  start -->
     <div class="gotop"></div>
@@ -262,15 +150,9 @@
     <script type="text/javascript" data-main="js/config" src="js/lib/require.min.js"></script>
     <script type="text/javascript">
         require(['config'],function(){
-            require(['common','dialog'], function() {
-                // 登录弹出框
-                $(".login-handle").on("click", function(){
-                    $.dialogPC({
-                        width:480,
-                        height:405,
-                        url:"3.html"
-                    });
-                });
+            require(['common'], function() {
+                // use javascript or jquery to do something
+                
             });
         });
     </script>
