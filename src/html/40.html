@@ -96,8 +96,7 @@
                     <img src="images/do_02.png" alt="">
                 </div>
                 <div class="wedo-des">
-                    <p>We are dedicated to identify and develop the best performing suppliers who </p>
-                    <p>maintain high standards for quality, security and ethics.</p>
+                    <p>We are dedicated to identify and develop the best performing suppliers who maintain high standards for quality, security and ethics.</p>
                     <p>We strive for continuous improvement on quality, delivery, cost efficiency as well as technology and innovations.</p>
                 </div>
             </div>
@@ -111,7 +110,7 @@
             <div class="source">
                 <div class="source-title">SOURCING SERVICE</div>
                 <div class="source-des">The expertise and industry experience ensure the service quality and efficiency.</div>
-                <div class="source-con">
+                <div class="source-con row">
                     <div class="list">
                         <div class="icon i01"></div>
                         <div class="tit">Approved Suppliers</div>
@@ -199,7 +198,9 @@
         require(['config'],function(){
             require(['common', 'slider'], function() {
                  // banner轮播
-                 $('.banner').slider();
+                 $('.banner').slider({
+                    time: 300000
+                 });
             });
         });
     </script>
