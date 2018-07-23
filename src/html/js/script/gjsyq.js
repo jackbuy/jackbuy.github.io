@@ -1,0 +1,3 @@
+/*!all-2018-07-23 */
+
+$(function(){function a(a){e.css({marginLeft:k-h*a})}var b=$(".zlbj"),c=b.find(".next"),d=b.find(".prev"),e=b.find("ul"),f=b.find("li"),g=b.find("li").length,h=f.outerWidth(!0),i=0,j=0;b.find("li").each(function(){j+=$(this).outerWidth(!0)});var k=$(window).width()/2-h/2-h;e.width(j).css({marginLeft:k}),f.eq(1).addClass("active"),c.on("click",function(){i<g-2&&(i++,f.eq(i+1).addClass("active").siblings().removeClass("active"),a(i))}),d.on("click",function(){i>=0&&(i--,f.eq(i+1).addClass("active").siblings().removeClass("active"),a(i))})});
