@@ -1,3 +1,0 @@
-/*!all-2018-07-23 */
-
-$(function(){function a(){b.find(".li").each(function(){$(this).find("i").removeClass("hover")})}var b=($(".product-tab"),$(".product-tab-menu")),c=$(".product-tab-content");b.find(".li").each(function(){$(this).on("click",function(){$(this).addClass("active").siblings().removeClass("active"),a(),$(this).find("i").addClass("hover"),c.eq($(this).index()).addClass("active").siblings().removeClass("active")})})});

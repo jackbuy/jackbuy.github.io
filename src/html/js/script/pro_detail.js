@@ -1,3 +1,0 @@
-/*!all-2018-07-23 */
-
-$(function(){function a(){$(window).scrollTop()>=e+10?d.addClass("active"):d.removeClass("active")}function b(){$("body,html").animate({scrollTop:f},300)}function c(){var a=$(window).width(),b=$(".pro-detail .show-pro-handle .inner ul"),c=b.find("li").length,d=b.find("li").outerWidth(!0);a<767&&($(".pro-detail .show-pro-handle .inner").width(a-20),b.width(c*d))}var d=$(".pro-tabmenu"),e=($(".pro-content-box"),d.offset().top),f=d.offset().top;a(),$(window).on("scroll",a),d.find("a").on("click",b),$(".btn-detail").on("click",b),c(),$(window).resize(function(){c()})});
