@@ -2,11 +2,11 @@
 	"itemName":"利亚德",
 	"src":"src/logo.png",
 	"describe":"", 
-	"urlPath":"src/html1.5/",
+	"urlPath":"src/dist/",
 	"list":[
 		{
 			"title" : "首页",
-			"url"   : "1.html"
+			"url"   : "首页.html"
 		},
 		{
 			"title" : "走进利亚德-董事长致辞",
