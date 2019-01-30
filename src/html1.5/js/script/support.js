@@ -1,3 +1,0 @@
-/*!all-2018-07-27 */
-
-$(function(){function a(){$(window).scrollTop()>=d?c.addClass("active"):c.removeClass("active"),$(window).scrollTop()>=d+10?(c.addClass("color"),c.find(".gotop").addClass("active")):(c.removeClass("color"),c.find(".gotop").removeClass("active"))}function b(){f.css({marginLeft:-252*j})}var c=$(".sub-header"),d=$(".sub-banner").offset().top;a(),$(window).on("scroll",a);var e=$(".zyzz-content-img .inner"),f=e.find("ul"),g=(e.find("li"),e.find(".zyzz-prev")),h=e.find(".zyzz-next"),i=e.find("li").length,j=0;i>5&&(g.addClass("active"),h.addClass("active")),g.on("click",function(){j>0&&(j--,b())}),h.on("click",function(){i>5&&i-5>j&&(j++,b())})});

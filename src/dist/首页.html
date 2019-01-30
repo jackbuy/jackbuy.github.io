@@ -13,6 +13,14 @@
     <script type="text/javascript" src="js/lib/html5.js"></script>
     <script type="text/javascript" src="js/lib/respond.min.js"></script>
     <script type="text/javascript" src="js/lib/modernizr-2.6.2.min.js"></script>
+    <script type="text/javascript"  src="js/lib/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript"  src="js/script/common.js"></script>
+    <script type="text/javascript"  src="js/script/slider.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $('.banner').slider();
+        });
+    </script>
     <!--[if lt IE 9]>
         <script type="text/javascript" src="js/script/incompatible.js"></script>
     <![endif]-->
@@ -36,10 +44,10 @@
                     <div class="login row">
                         <ul>
                             <li>
-                                <a href="#">Sign In</a>
+                                <a href="#" class="sign-out">Sign In</a>
                             </li>
                             <li>
-                                <a href="#">Join Free</a>
+                                <span>Join Free</span>
                                 <ul>
                                     <li><a href="#">I am a buyer</a></li>
                                     <li><a href="#">I am a supplier</a></li>
@@ -53,7 +61,7 @@
                     <div class="entry row">
                         <ul>
                             <li>
-                                <a href="#">For Buyers</a>
+                                <span>For Buyers</span>
                                 <ul>
                                     <li><a href="#">For Buyers menu1</a></li>
                                     <li><a href="#">For Buyers menu2</a></li>
@@ -61,7 +69,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">For Suppliers</a>
+                                <span>For Suppliers</span>
                                 <ul>
                                     <li><a href="#">For Suppliers menu1</a></li>
                                     <li><a href="#">For Suppliers menu2</a></li>
@@ -69,7 +77,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">My Enernovo</a>
+                                <span>My Enernovo</span>
                                 <ul>
                                     <li><a href="#">For Suppliers menu1</a></li>
                                     <li><a href="#">For Suppliers menu2</a></li>
@@ -84,7 +92,7 @@
         <div class="inner">
             <div class="header-bar row">
                 <div class="logo"></div>
-                <div class="search ml50">
+                <div class="search">
                     <form action="">
                         <label for="">Products</label>
                         <input type="text" placeholder="I am looking for…">
@@ -106,7 +114,82 @@
                     <div class="menu-bar-con">
                         <ul>
                             <li>
-                                <a href="#">Categories</a>
+                                <div class="title"><a href="#">Categories</a></div>
+                                <div class="sub-con row">
+                                    <dl>
+                                        <dt>Alkalinity Control Agents</dt>
+                                        <dd><a href="#">Magnesium Oxide</a></dd>
+                                        <dd><a href="#">Sodium Bicarbonate</a></dd>
+                                        <dd><a href="#" class="more">View More</a></dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Filtrate Control / Corrosion Control</dt>
+                                        <dd><a href="#">Granular Erythorbate </a></dd>
+                                        <dd><a href="#">Potassium Sulfate</a></dd>
+                                        <dd><a href="#" class="more">View More</a></dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Viscosifiers, Suspending Agents</dt>
+                                        <dd><a href="#">Sodium bentonite</a></dd>
+                                        <dd><a href="#">HEC</a></dd>
+                                        <dd><a href="#">Mixed metal silicate</a></dd>
+                                        <dd><a href="#">Attapulgite clay</a></dd>
+                                        <dd><a href="#" class="more">View More</a></dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>More Functions</dt>
+                                        <dd><a href="#">Shale Stabilizers</a></dd>
+                                        <dd><a href="#" class="more">View More</a></dd>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="title"><a href="#">Cementing Additives2</a></div>
+                                <div class="sub-con row">
+                                    <dl>
+                                        <dt><a href="#">Alkalinity Control Agents</a></dt>
+                                        <dd><a href="#">Magnesium Oxide</a></dd>
+                                        <dd><a href="#">Sodium Bicarbonate</a></dd>
+                                        <dd><a href="#">Citric Acid Anhydrous</a></dd>
+                                        <dd><a href="#">Lime</a></dd>
+                                        <dd><a href="#">Potassium Hydroxide</a></dd>
+                                        <dd><a href="#">Fumaric Acid</a></dd>
+                                        <dd><a href="#" class="more">View More</a></dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Filtrate Control / Corrosion Control</dt>
+                                        <dd><a href="#">Granular Erythorbate </a></dd>
+                                        <dd><a href="#">Water-Soluble Iron Gluconate</a></dd>
+                                        <dd><a href="#">Hydrogen Sulfide Scavenger</a></dd>
+                                        <dd><a href="#">Sodium Sulfite</a></dd>
+                                        <dd><a href="#">Zinc Carbonate</a></dd>
+                                        <dd><a href="#">Potassium Sulfate</a></dd>
+                                        <dd><a href="#" class="more">View More</a></dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Viscosifiers, Suspending Agents</dt>
+                                        <dd><a href="#">Sodium bentonite</a></dd>
+                                        <dd><a href="#">HEC</a></dd>
+                                        <dd><a href="#">Mixed metal silicate</a></dd>
+                                        <dd><a href="#">Xanthan biopolymer in liquid form</a></dd>
+                                        <dd><a href="#">Synthetic magnesium silicate</a></dd>
+                                        <dd><a href="#">Attapulgite clay</a></dd>
+                                        <dd><a href="#" class="more">View More</a></dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>More Functions</dt>
+                                        <dd><a href="#">Shale Stabilizers</a></dd>
+                                        <dd><a href="#">Degreasers, Wetting Agents</a></dd>
+                                        <dd><a href="#">Emulsifiers</a></dd>
+                                        <dd><a href="#">Defoamer</a></dd>
+                                        <dd><a href="#">Lost Circulation Materials</a></dd>
+                                        <dd><a href="#">Weighting Agents</a></dd>
+                                        <dd><a href="#" class="more">View More</a></dd>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="title"><a href="#">Auto & Transportation3</a></div>
                                 <div class="sub-con row">
                                     <dl>
                                         <dt>Alkalinity Control Agents</dt>
@@ -151,7 +234,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="#">Cementing Additives2</a>
+                                <div class="title"><a href="#">Electronics4</a></div>
                                 <div class="sub-con row">
                                     <dl>
                                         <dt>Alkalinity Control Agents</dt>
@@ -196,7 +279,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="#">Auto & Transportation3</a>
+                                <div class="title"><a href="#">Gifts,Sports & Toys6</a></div>
                                 <div class="sub-con row">
                                     <dl>
                                         <dt>Alkalinity Control Agents</dt>
@@ -241,7 +324,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="#">Electronics4</a>
+                                <div class="title"><a href="#">Home,Lights & Construction7</a></div>
                                 <div class="sub-con row">
                                     <dl>
                                         <dt>Alkalinity Control Agents</dt>
@@ -286,97 +369,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="#">Gifts,Sports & Toys6</a>
-                                <div class="sub-con row">
-                                    <dl>
-                                        <dt>Alkalinity Control Agents</dt>
-                                        <dd><a href="#">Magnesium Oxide</a></dd>
-                                        <dd><a href="#">Sodium Bicarbonate</a></dd>
-                                        <dd><a href="#">Citric Acid Anhydrous</a></dd>
-                                        <dd><a href="#">Lime</a></dd>
-                                        <dd><a href="#">Potassium Hydroxide</a></dd>
-                                        <dd><a href="#">Fumaric Acid</a></dd>
-                                        <dd><a href="#" class="more">View More</a></dd>
-                                    </dl>
-                                    <dl>
-                                        <dt>Filtrate Control / Corrosion Control</dt>
-                                        <dd><a href="#">Granular Erythorbate </a></dd>
-                                        <dd><a href="#">Water-Soluble Iron Gluconate</a></dd>
-                                        <dd><a href="#">Hydrogen Sulfide Scavenger</a></dd>
-                                        <dd><a href="#">Sodium Sulfite</a></dd>
-                                        <dd><a href="#">Zinc Carbonate</a></dd>
-                                        <dd><a href="#">Potassium Sulfate</a></dd>
-                                        <dd><a href="#" class="more">View More</a></dd>
-                                    </dl>
-                                    <dl>
-                                        <dt>Viscosifiers, Suspending Agents</dt>
-                                        <dd><a href="#">Sodium bentonite</a></dd>
-                                        <dd><a href="#">HEC</a></dd>
-                                        <dd><a href="#">Mixed metal silicate</a></dd>
-                                        <dd><a href="#">Xanthan biopolymer in liquid form</a></dd>
-                                        <dd><a href="#">Synthetic magnesium silicate</a></dd>
-                                        <dd><a href="#">Attapulgite clay</a></dd>
-                                        <dd><a href="#" class="more">View More</a></dd>
-                                    </dl>
-                                    <dl>
-                                        <dt>More Functions</dt>
-                                        <dd><a href="#">Shale Stabilizers</a></dd>
-                                        <dd><a href="#">Degreasers, Wetting Agents</a></dd>
-                                        <dd><a href="#">Emulsifiers</a></dd>
-                                        <dd><a href="#">Defoamer</a></dd>
-                                        <dd><a href="#">Lost Circulation Materials</a></dd>
-                                        <dd><a href="#">Weighting Agents</a></dd>
-                                        <dd><a href="#" class="more">View More</a></dd>
-                                    </dl>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="#">Home,Lights & Construction7</a>
-                                <div class="sub-con row">
-                                    <dl>
-                                        <dt>Alkalinity Control Agents</dt>
-                                        <dd><a href="#">Magnesium Oxide</a></dd>
-                                        <dd><a href="#">Sodium Bicarbonate</a></dd>
-                                        <dd><a href="#">Citric Acid Anhydrous</a></dd>
-                                        <dd><a href="#">Lime</a></dd>
-                                        <dd><a href="#">Potassium Hydroxide</a></dd>
-                                        <dd><a href="#">Fumaric Acid</a></dd>
-                                        <dd><a href="#" class="more">View More</a></dd>
-                                    </dl>
-                                    <dl>
-                                        <dt>Filtrate Control / Corrosion Control</dt>
-                                        <dd><a href="#">Granular Erythorbate </a></dd>
-                                        <dd><a href="#">Water-Soluble Iron Gluconate</a></dd>
-                                        <dd><a href="#">Hydrogen Sulfide Scavenger</a></dd>
-                                        <dd><a href="#">Sodium Sulfite</a></dd>
-                                        <dd><a href="#">Zinc Carbonate</a></dd>
-                                        <dd><a href="#">Potassium Sulfate</a></dd>
-                                        <dd><a href="#" class="more">View More</a></dd>
-                                    </dl>
-                                    <dl>
-                                        <dt>Viscosifiers, Suspending Agents</dt>
-                                        <dd><a href="#">Sodium bentonite</a></dd>
-                                        <dd><a href="#">HEC</a></dd>
-                                        <dd><a href="#">Mixed metal silicate</a></dd>
-                                        <dd><a href="#">Xanthan biopolymer in liquid form</a></dd>
-                                        <dd><a href="#">Synthetic magnesium silicate</a></dd>
-                                        <dd><a href="#">Attapulgite clay</a></dd>
-                                        <dd><a href="#" class="more">View More</a></dd>
-                                    </dl>
-                                    <dl>
-                                        <dt>More Functions</dt>
-                                        <dd><a href="#">Shale Stabilizers</a></dd>
-                                        <dd><a href="#">Degreasers, Wetting Agents</a></dd>
-                                        <dd><a href="#">Emulsifiers</a></dd>
-                                        <dd><a href="#">Defoamer</a></dd>
-                                        <dd><a href="#">Lost Circulation Materials</a></dd>
-                                        <dd><a href="#">Weighting Agents</a></dd>
-                                        <dd><a href="#" class="more">View More</a></dd>
-                                    </dl>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="#">Health & Beaury8</a>
+                                <div class="title"><a href="#">Health & Beaury8</a></div>
                                 <div class="sub-con row">
                                     <dl>
                                         <dt>Alkalinity Control Agents</dt>
@@ -433,7 +426,7 @@
                 </div>
             </div>
             <div class="wedo row">
-                <div class="wedo-title">WHAT WE DO</div>
+                <div class="wedo-title"><b>WHAT WE DO</b></div>
                 <div class="wedo-img row">
                     <img src="images/do_01.png" alt="">
                     <img src="images/do_02.png" alt="">
@@ -532,11 +525,11 @@
             <span>service@enernovo.com</span>
         </div>
         <div class="share">
-            <a href="#" class="sina"></a>
-            <a href="#" class="tencent"></a>
-            <a href="#" class="wechat"></a>
-            <a href="#" class="facebook"></a>
-            <a href="#" class="twitter"></a>
+            <a href="#" class="sina">Sina</a>
+            <a href="#" class="tencent">QQ</a>
+            <a href="#" class="wechat">Wechat</a>
+            <a href="#" class="facebook">Facebook</a>
+            <a href="#" class="twitter">Twitter</a>
         </div>
     </footer>
 
@@ -544,14 +537,14 @@
     <div class="gotop"></div>
     <!-- 返回顶部  end -->
 
-    <script type="text/javascript" data-main="js/config" src="js/lib/require.min.js"></script>
+    <!-- <script type="text/javascript" data-main="js/config" src="js/lib/require.min.js"></script>
     <script type="text/javascript">
         require(['config'],function(){
             require(['common', 'slider'], function() {
-                 // banner轮播
-                 $('.banner').slider();
+                // use javascript or jquery to do something
+                $('.banner').slider();
             });
         });
-    </script>
+    </script> -->
 </body>
 </html>
