@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset="UTF-8">
+<title>前端-在线演示系统</title> 
+<link rel="stylesheet" type="text/css" href="about/css/all.min.css?version=1.1"> 
+<body> 
+<div class="bg"></div> 
+<div class="mask"></div>  
+<div class="container amt">
+	<div class="tit">在线演示系统</div>
+	<div class="con">
+		<div class="project-name">--</div>
+	</div>
+	<div class="btn"><a href="javascript:;;">立即查看</a></div>
+</div> 
+<div class="footer"><span>Copyright © 2016-2017 前端-在线演示系统 v1.1</span>|<a href="updatelog.html" target="_blank">升级日志</a>|<span>提示：建议使用IE9+、chrome、firefox等浏览器查看演示。</span></div>
+</body>
+<script type="text/javascript" src="about/js/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="about/js/zui.js"></script>
+<script type="text/javascript"> 
+	$('.container').zui({
+		data:'data/index.json'
+	});
+</script> 
+</html>
