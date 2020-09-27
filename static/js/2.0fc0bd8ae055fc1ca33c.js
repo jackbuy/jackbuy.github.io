@@ -1,2 +1,0 @@
-webpackJsonp([2],{DcNj:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var r={render:function(){var t=this.$createElement,e=this._self._c||t;return e("div",[e("mt-header",{attrs:{title:"用户登录"}},[e("router-link",{attrs:{slot:"left",to:"/"},slot:"left"},[e("mt-button",{attrs:{icon:"back"}},[this._v("返回")])],1)],1)],1)},staticRenderFns:[]},l=n("C7Lr")({name:"Login",data:function(){return{}},created:function(){},methods:{}},r,!1,null,null,null);e.default=l.exports}});
-//# sourceMappingURL=2.0fc0bd8ae055fc1ca33c.js.map
